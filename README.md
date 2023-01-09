@@ -1,4 +1,4 @@
-# Lumch Date (Getting Started with Create React App)
+# Lunch Date (Getting Started with Create React App)
 )
 Coding Boot Camp project 3. A system manage meals on wheels distribution.
 
