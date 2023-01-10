@@ -67,10 +67,7 @@ The following video shows an example of the functionality of the application:
 
 ### Front-end
  - JavaScript
- - jQuery
- - html
- - CSS
- - JS
+ - REACT (html/css/js)
  - Bootstrap
 
 ### Back-end
