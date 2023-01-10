@@ -1,9 +1,90 @@
 # Lunch Date (Getting Started with Create React App)
-)
-Coding Boot Camp project 3. A system manage meals on wheels distribution.
+
+Coding Boot Camp project 3. A system manage to meals on wheels distribution.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Motivation for development 
+
+Lunch Date allows Home Care Workers to set a monthly Fresh Menu for aged care clients who can choose the quantity of meals they would like delivered as well as give special instructions for the meals delivered. 
+
+Because Lunch Date captures the details of meal deliveries in a central location it allows for better planning of menus and efficient allocation of resources for this essential service.  
+
+## User Story
+AS A Home Care Worker
+I WANT to create a monthly menu for a meals on wheels service
+SO THAT I can keep record of a clients meal orders
+
+## Acceptance Criteria
+WHEN a new client is registered
+THEN I can store their name and address
+WHEN a new monthly is decided
+THEN I can enter a fresh menu into the app
+WHEN a customer is ready to order
+THEN I enter the quantity of meals requested and and any special instructions into the customer's order 
+WHEN all customer orders are received
+THEN I can view the quantity of meals ordered on any given date and generate a delivery run sheet
+WHEN a client claims that a meal was not recieved
+THEN I can check the historical data to verify
+WHEN I select a date in the future
+THEN I can see a total of the number of meals required for that day so I can shop accordingly
+
+
+## System Architecture and Flow
+
+- Add image for concept
+
+## Links to Deployed Application
+[Link to deployed working application](https://lunch-date.herokuapp.com/)....
+
+[Link to Github](https://github.com/SeanU2022/lunch-date)....
+
+## Mock-up
+
+The following video shows an example of the functionality of the application:
+ - Add link to video
+
+
+ - Homepage - Login/Signup Screen
+
+ - Landing page - presented with menu
+
+
+## Installation Requirements
+1. Installation of Microsoft Visual Studio
+2. Open up Terminal within Microsoft and type in the following commands:
+ - 
+ -
+
+## Future Developments
+ - Add an admin user to view ALL orders
+ - An electronic payment gateway can be intergrated into applciation, allowing the user to make an online payment ahead; instead of paying cash on collection of their order.
+ - The menu to offer more modifications to the driks - such as amount of sugars, type of drink, drink temperature etc. 
+ - Allowing the user to save their last order/ favourite drink for subsequent orders when they login into the application
+
+
+## Technologies Used
+
+### Front-end
+ - JavaScript
+ - jQuery
+ - html
+ - CSS
+ - JS
+ - Bootstrap
+
+### Back-end
+ - bCrypt
+ - dotenv
+ - Express
+ - Express-handlebars
+ - mySQL2
+ - eslint
+ - Sequelize
+
+## Authors
+ - Trentan Jurkans: https://github.com/TRN10
+ - Sean Wallace: https://github.com/SeanU2022
 ## Available Scripts
 
 In the project directory, you can run:
