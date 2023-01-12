@@ -47,9 +47,9 @@ The following video shows an example of the functionality of the application:
 
 ## Installation Requirements
 1. package.json devDependencies: run npm install
-2. npm i --save @fortawesome/fontawesome-svg-core
-3. npm install --save @fortawesome/free-solid-svg-icons
-4. npm install --save @fortawesome/react-fontawesome
+2. this adds to package.json: npm i --save @fortawesome/fontawesome-svg-core
+3. this adds to package.json: npm install --save @fortawesome/free-solid-svg-icons
+4. this adds to package.json: npm install --save @fortawesome/react-fontawesome
  - 
  -
 
