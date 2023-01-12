@@ -55,8 +55,13 @@ The following video shows an example of the functionality of the application:
 
 ## Deployment
 1. Database instructions: [MondoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/how-to-set-up-mongodb-atlas)
-2. Server instructions: [Heroku connected to MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas)
-3. Note: copy the MongoDB drivers connection string from the cluster and use in Heroku>application>Settings>Config Vars as MONGODB_URI
+2. Deployed Server instructions: [Heroku connected to MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas)
+3. Setup MONGODB_URI on Heroku and make sure your app will write to the correct collection:
+3a. copy MongoDB drivers connection string from MongoDB/Atlas cluster to Heroku>application>Settings>Config Vars as MONGODB_URI
+3b. SuperNote: MongoDB/Atlas>DataServices>Database>[Connect]>[MongoDB Drivers] URI to copy looks like this:
+mongodb+srv://sean-admin:password@cluster0.a2oshzw.mongodb.net/?retryWrites=true&w=majority
+3c. make sure you add the Collection/DBname to the URI like this for example:
+mongodb+srv://sean-admin:password@cluster0.a2oshzw.mongodb.net/**_lunch-date_**?retryWrites=true&w=majority
 4. Note: the root package.json file uses "engines": {"node": "16.x"} to avoid build failure on Heroku.
 
 ## Deployed Application
