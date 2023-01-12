@@ -1,11 +1,12 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
-import Login from './Logintj';
 import Modal from 'react-bootstrap/Modal';
 import Dropdown from 'react-bootstrap/Dropdown';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import * as faSolidIcons from '@fortawesome/free-solid-svg-icons'
+import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
+import Row from 'react-bootstrap/Row';
 
 function Client() {
     return (
@@ -15,9 +16,7 @@ function Client() {
                 style={{ display: 'block', position: 'initial' }}
             >
                 <Modal.Dialog>
-                    {/* <Modal.Header closeButton>
-                        <Modal.Title>Modal title</Modal.Title>
-                    </Modal.Header> */}
+
 
                     <Modal.Body>
 
@@ -38,25 +37,19 @@ function Client() {
                         </Dropdown.Menu>
                     </Dropdown>
                     <Form>
-                        <Form.Group className="mb-3" controlId="formBasicEmail">
-                            <Form.Label>first name</Form.Label>
-                            <Form.Control type="text" placeholder="enter first name" />
-                            {/* <Form.Text className="text-muted">
-                    We'll never share your email with anyone else.
-                </Form.Text> */}
-                        </Form.Group>
+                        <Row>
 
-                        <Form.Group className="mb-3" controlId="formBasicEmail">
-                            <Form.Label>last name</Form.Label>
-                            <Form.Control type="text" placeholder="enter last name" />
-                            {/* <Form.Text className="text-muted">
-                    We'll never share your email with anyone else.
-                </Form.Text> */}
-                        </Form.Group>
+                            <Col>
+                                <Form.Control placeholder="first name" />
+                            </Col>
+                            <Col xs={6}>
+                                <Form.Control placeholder="last name" />
+                            </Col>
+                        </Row>
 
-                        <Form.Group className="mb-3" controlId="formBasicPassword">
-                            <Form.Label>address</Form.Label>
-                            <Form.Control type="text" placeholder="enter client's address" />
+                        <Form.Group id="address">
+
+                            <Form.Control placeholder="address" />
                         </Form.Group>
                         {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
                         <Form.Check type="checkbox" label="Check me out" />
