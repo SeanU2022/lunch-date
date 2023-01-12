@@ -34,11 +34,6 @@ THEN I can see a total of the number of meals required for that day so I can sho
 
 - Add image for concept
 
-## Links to Deployed Application
-[Link to deployed working application](https://lunch-date.herokuapp.com/)....
-
-[Link to Github](https://github.com/SeanU2022/lunch-date)....
-
 ## Mock-up
 
 The following video shows an example of the functionality of the application:
@@ -63,6 +58,11 @@ The following video shows an example of the functionality of the application:
 2. Server instructions: [Heroku connected to MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas)
 3. Note: copy the MongoDB drivers connection string from the cluster and use in Heroku>application>Settings>Config Vars as MONGODB_URI
 4. Note: the root package.json file uses "engines": {"node": "16.x"} to avoid build failure on Heroku.
+
+## Deployed Application
+[Lunch Date deployed to Heroku/MongoDB Atlas](https://lunch-date.herokuapp.com/)
+
+[Lunch Date Github Repository](https://github.com/SeanU2022/lunch-date)
 
 
 ## Future Developments
