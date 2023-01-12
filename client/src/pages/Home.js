@@ -3,10 +3,12 @@ import { useQuery } from '@apollo/client';
 
 import ThoughtList from '../components/ThoughtList';
 import ThoughtForm from '../components/ThoughtForm';
-
+import Modal from 'react-bootstrap/Modal';
 import { QUERY_THOUGHTS } from '../utils/queries';
 import Landing from '../components/Landing';
-// import '../App.css';
+import '../App.css';
+import '../index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Home = () => {
