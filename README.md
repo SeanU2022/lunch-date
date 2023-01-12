@@ -58,6 +58,13 @@ The following video shows an example of the functionality of the application:
  - 
  -
 
+## Deployment
+1. Database instructions: [MondoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/how-to-set-up-mongodb-atlas)
+2. Server instructions: [Heroku connected to MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas)
+3. Note: copy the MongoDB drivers connection string from the cluster and use in Heroku>application>Settings>Config Vars as MONGODB_URI
+4. Note: the root package.json file uses "engines": {"node": "16.x"} to avoid build failure on Heroku.
+
+
 ## Future Developments
  - Add an admin user to view ALL orders
  - An electronic payment gateway can be intergrated into applciation, allowing the user to make an online payment ahead; instead of paying cash on collection of their order.
