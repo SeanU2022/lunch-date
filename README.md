@@ -51,8 +51,10 @@ The following video shows an example of the functionality of the application:
 
 
 ## Installation Requirements
-1. Installation of Microsoft Visual Studio
-2. Open up Terminal within Microsoft and type in the following commands:
+1. package.json devDependencies: run npm install
+2. npm i --save @fortawesome/fontawesome-svg-core
+3. npm install --save @fortawesome/free-solid-svg-icons
+4. npm install --save @fortawesome/react-fontawesome
  - 
  -
 
