@@ -7,7 +7,7 @@ import * as faSolidIcons from '@fortawesome/free-solid-svg-icons'
 
 function Container() {
     return (
-        <div className='background'>
+        <div className='background-aqua'>
             <div
                 className="modal show"
                 style={{ display: 'block', position: 'initial' }}
