@@ -9,7 +9,9 @@ function Login() {
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>user email address</Form.Label>
                     <Form.Control type="email" placeholder="enter email" />
-
+                    {/* <Form.Text className="text-muted">
+                        We'll never share your email with anyone else.
+                    </Form.Text> */}
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -18,7 +20,7 @@ function Login() {
                 </Form.Group>
 
                 <Button variant="secondary" type="submit">
-                    Submit
+                    login
                 </Button>
             </Form>
         </div>
