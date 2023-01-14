@@ -9,6 +9,13 @@ const typeDefs = gql`
     thoughts: [Thought]!
   }
 
+  type Client {
+    _id: ID
+    name: String
+    address: String
+    town: String
+  }
+
   type Thought {
     _id: ID
     thoughtText: String
@@ -32,6 +39,8 @@ const typeDefs = gql`
   type Query {
     users: [User]
     user(username: String!): User
+    clients: [Client]
+    client(clientId: ID!): Client
     thoughts(username: String): [Thought]
     thought(thoughtId: ID!): Thought
     me: User
@@ -40,6 +49,7 @@ const typeDefs = gql`
   type Mutation {
     addUser(username: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
+    addClient(name: String!, address: String!, town: String!): Client
     addThought(thoughtText: String!): Thought
     addComment(thoughtId: ID!, commentText: String!): Thought
     removeThought(thoughtId: ID!): Thought
