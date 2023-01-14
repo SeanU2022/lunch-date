@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  font-family: cooper-black-std, serif;
 }
 
 .header {
@@ -20,10 +19,78 @@
   height: 1200px
 }
 
-.modal-title.h4 {
-  color: blue;
-
+.background-red {
+  background-image: url('./assets/gingham_red.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100%;
+  height: 1200px
 }
+
+.background-yellow {
+  background-image: url('./assets/gingham_yellow.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100%;
+  height: 1200px
+}
+
+.background-purple {
+  background-image: url('./assets/gingham_purple.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100%;
+  height: 1200px
+}
+
+.background-green {
+  background-image: url('./assets/gingham_green.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100%;
+  height: 1200px
+}
+
+.background-pink {
+  background-image: url('./assets/gingham_pink.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100%;
+  height: 1200px
+}
+
+.background-aqua {
+  background-image: url('./assets/gingham_aqua.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100%;
+  height: 1200px
+}
+
+.background-blue {
+  background-image: url('./assets/gingham_blue.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100%;
+  height: 1200px
+}
+
+.background-orange {
+  background-image: url('./assets/gingham_orange.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100%;
+  height: 1200px
+}
+
 
 #logo {
   font-size: 70px;
@@ -35,6 +102,9 @@ h2 {
   font-size: 100px
 }
 
+h3 {
+  font-family: cooper-black-std, serif;
+}
 
 .modal-content {
 
@@ -43,11 +113,15 @@ h2 {
   text-align: center;
   font-style: normal;
   padding-top: 40px;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .modal-body {
   font-family: cooper-black-std, serif;
+}
+
+#dropdown-basic {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .login {
@@ -64,4 +138,93 @@ h2 {
 
 h3 {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.mb-3 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#dropdown {
+  padding-bottom: 20px;
+}
+
+.btn {
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+.row {
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#address {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.navbar {
+  background-color: rgb(49, 49, 49);
+
+}
+
+.navbar-brand {
+  font-family: cooper-black-std, serif;
+  color: white;
+}
+
+#nav-logo {
+  color: white;
+}
+
+#navbar {
+  color: rgb(142, 142, 142);
+  /* display: block; */
+}
+
+#navbar:hover {
+  color: white;
+}
+
+.nav-link {
+  margin-left: 30px;
+}
+
+.table {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+#generate-run {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.soup,
+.dessert {
+  font-family: cooper-black-std, serif;
+}
+
+/* .town {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+} */
+
+.meal-description,
+.town {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+@media only screen and (max-width: 1000px) {
+  #navbar {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+
+  /* #nav-link {
+    margin-top: 50px;
+  } */
 }
