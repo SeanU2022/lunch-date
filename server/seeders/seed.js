@@ -1,10 +1,12 @@
 const db = require('../config/connection');
-const { User, Thought } = require('../models');
+const { User, Client, Thought } = require('../models');
 const userSeeds = require('./userSeeds.json');
+const clientSeeds = require('./clientSeeds.json')
 const thoughtSeeds = require('./thoughtSeeds.json');
 
 db.once('open', async () => {
   try {
+    await Client.deleteMany({});
     await Thought.deleteMany({});
     await User.deleteMany({});
 
@@ -21,6 +23,12 @@ db.once('open', async () => {
         }
       );
     }
+
+    for (let i = 0; i < clientSeeds.length; i++) {
+      // const client = await Client.create(clientSeeds[i]);
+      await Client.create(clientSeeds[i]);
+    }
+
   } catch (err) {
     console.error(err);
     process.exit(1);

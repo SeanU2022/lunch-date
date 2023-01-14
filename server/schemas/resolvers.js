@@ -1,5 +1,5 @@
 const { AuthenticationError } = require('apollo-server-express');
-const { User, Thought } = require('../models');
+const { User, Client, Thought } = require('../models');
 const { signToken } = require('../utils/auth');
 
 const resolvers = {
@@ -10,13 +10,23 @@ const resolvers = {
     user: async (parent, { username }) => {
       return User.findOne({ username }).populate('thoughts');
     },
-    thoughts: async (parent, { username }) => {
-      const params = username ? { username } : {};
-      return Thought.find(params).sort({ createdAt: -1 });
+
+    clients: async () => {
+      return Client.find().sort({ createdAt: -1 });
     },
+
+    client: async (parent, { clientId }) => {
+      return Client.findOne({ _id: clientId });
+    },
+
+    // thoughts: async (parent, { username }) => {
+    //   const params = username ? { username } : {};
+    //   return Thought.find(params).sort({ createdAt: -1 });
+    // },
     thought: async (parent, { thoughtId }) => {
       return Thought.findOne({ _id: thoughtId });
     },
+
     me: async (parent, args, context) => {
       if (context.user) {
         return User.findOne({ _id: context.user._id }).populate('thoughts');
@@ -47,6 +57,17 @@ const resolvers = {
       const token = signToken(user);
 
       return { token, user };
+    },
+    addClient: async (parent, { name, address, town }, context) => {
+      if (context.user) {
+        const client = await Client.create({
+          name,
+          address,
+          town
+        });
+        return client;
+      }
+      throw new AuthenticationError('You need to be logged in!');
     },
     addThought: async (parent, { thoughtText }, context) => {
       if (context.user) {
