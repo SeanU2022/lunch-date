@@ -22,31 +22,31 @@ function NavTop() {
                 <Container id="navbar">
                     <Navbar.Brand href="#home"><h2 id="nav-logo"><FontAwesomeIcon icon={faSolidIcons.faUtensils} /> lunchDate</h2></Navbar.Brand>
                     <Nav.Link href="/addclient">add client <FontAwesomeIcon icon={faSolidIcons.faUserPlus} /></Nav.Link>
-                    <Nav.Link href="#home">edit client <FontAwesomeIcon icon={faSolidIcons.faUserPen} /></Nav.Link>
-                    <Nav.Link href="#home">client order <FontAwesomeIcon icon={faSolidIcons.faPen} /></Nav.Link>
-                    <Nav.Link href="#home">menu editor <FontAwesomeIcon icon={faSolidIcons.faPenToSquare} /></Nav.Link>
+                    <Nav.Link href="/editclient">edit client <FontAwesomeIcon icon={faSolidIcons.faUserPen} /></Nav.Link>
+                    <Nav.Link href="/clientorder">client order <FontAwesomeIcon icon={faSolidIcons.faPen} /></Nav.Link>
+                    <Nav.Link href="/editmenu">menu editor <FontAwesomeIcon icon={faSolidIcons.faPenToSquare} /></Nav.Link>
                     <NavDropdown title="view" id="navbarScrollingDropdown">
                         <NavDropdown.Item href="/landing">All towns</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action4">
+                        <NavDropdown.Item href="/tumutred">
                             Tumut (red)
                         </NavDropdown.Item>
 
-                        <NavDropdown.Item href="#action5">
+                        <NavDropdown.Item href="/tumutblue">
                             Tumut (blue)
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="#action6">
+                        <NavDropdown.Item href="/gundagai">
                             Gundagai
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="#action7">
+                        <NavDropdown.Item href="/batlow">
                             Batlow
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="#action8">
+                        <NavDropdown.Item href="/adelong">
                             Adelong
                         </NavDropdown.Item>
                     </NavDropdown>
                     {/* <Button variant="secondary" type="submit"> */}
-                    <Nav.Link href="#home" onClick={Auth.logout}>logout <FontAwesomeIcon icon={faSolidIcons.faRightFromBracket} /></Nav.Link>
+                    <Nav.Link href="/login" onClick={Auth.logout}>logout <FontAwesomeIcon icon={faSolidIcons.faRightFromBracket} /></Nav.Link>
 
 
                     {/* </Button> */}

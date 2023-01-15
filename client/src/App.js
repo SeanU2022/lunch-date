@@ -14,10 +14,19 @@ import Login from './pages/Login';
 import SingleThought from './pages/SingleThought';
 import Profile from './pages/Profile';
 import Header from './components/Header';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Modal from 'react-bootstrap/Modal';
 import ClientAdd from './pages/ClientAdd';
+import Landing from './components/Landing';
+import TumutRed from './pages/TumutRed';
+import TumutBlue from './pages/TumutBlue';
+import Gundagai from './pages/Gundagai';
+import Batlow from './pages/Batlow';
+import Adelong from './pages/Adelong';
+import ClientEdit from './pages/ClientEdit';
+import Order from './pages/Order';
+import CreateMenu from './pages/CreateMenu';
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
@@ -75,9 +84,45 @@ function App() {
                 path="/addclient"
                 element={<ClientAdd />}
               />
+              <Route
+                path="/editclient"
+                element={<ClientEdit />}
+              />
+              <Route
+                path="/landing"
+                element={<Landing />}
+              />
+              <Route
+                path="/tumutred"
+                element={<TumutRed />}
+              />
+              <Route
+                path="/tumutblue"
+                element={<TumutBlue />}
+              />
+              <Route
+                path="/gundagai"
+                element={<Gundagai />}
+              />
+              <Route
+                path="/batlow"
+                element={<Batlow />}
+              />
+              <Route
+                path="/adelong"
+                element={<Adelong />}
+              />
+              <Route
+                path="/clientorder"
+                element={<Order />}
+              />
+              <Route
+                path="/editmenu"
+                element={<CreateMenu />}
+              />
             </Routes>
           </div>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </Router>
     </ApolloProvider>
