@@ -11,7 +11,7 @@ import Row from 'react-bootstrap/Row';
 
 function ClientEdit() {
     return (
-        <div className='background-pink'>
+        <div className='background-pink2'>
             <div
                 className="modal show"
                 style={{ display: 'block', position: 'initial' }}
