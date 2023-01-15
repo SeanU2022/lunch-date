@@ -1,3 +1,4 @@
+// production: heroku run node ./seeds/seed.js;;
 const db = require('../config/connection');
 const { User, Client, Thought } = require('../models');
 const userSeeds = require('./userSeeds.json');

@@ -17,6 +17,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Modal from 'react-bootstrap/Modal';
+import ClientAdd from './pages/ClientAdd';
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
@@ -71,8 +72,8 @@ function App() {
                 element={<Profile />}
               />
               <Route
-                path="/thoughts/:thoughtId"
-                element={<SingleThought />}
+                path="/addclient"
+                element={<ClientAdd />}
               />
             </Routes>
           </div>
