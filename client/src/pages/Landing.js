@@ -4,6 +4,7 @@ import Login from './LoginTrentan';
 import Modal from 'react-bootstrap/Modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import * as faSolidIcons from '@fortawesome/free-solid-svg-icons'
+import CurrentDate from '../components/CurrentDate';
 
 function Landing() {
     return (
@@ -20,7 +21,7 @@ function Landing() {
                     <Modal.Body>
 
                         <h1 id='logo'><FontAwesomeIcon icon={faSolidIcons.faUtensils} /></h1>
-                        <h1> 11 Jan 2023</h1>
+                        <CurrentDate />
                         <br></br>
                         <hr></hr>
                         <h2 className='meal-description'><strong>roast beef and vegetables</strong></h2>

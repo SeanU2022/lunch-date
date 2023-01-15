@@ -5,6 +5,8 @@ import Modal from 'react-bootstrap/Modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import * as faSolidIcons from '@fortawesome/free-solid-svg-icons'
 import Table from 'react-bootstrap/Table';
+import CurrentDate from '../components/CurrentDate';
+
 
 function Adelong() {
     return (
@@ -20,7 +22,8 @@ function Adelong() {
 
                         <h1 id='logo'><FontAwesomeIcon icon={faSolidIcons.faUtensils} /></h1>
 
-                        <h2> 11 Jan 2023</h2>
+
+                        <CurrentDate />
 
                         <h1>Adelong</h1>
                         <br></br>
