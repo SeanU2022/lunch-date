@@ -9,6 +9,64 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 
+// import { useMutation } from '@apollo/client';
+
+// import { ADD_CLIENT } from '../../utils/mutations';
+
+
+// const [thoughtText, setThoughtText] = useState('');
+
+// const [characterCount, setCharacterCount] = useState(0);
+
+// const [addThought, { error }] = useMutation(ADD_CLIENT, {
+//   update(cache, { data: { addThought } }) {
+//     try {
+//       const { thoughts } = cache.readQuery({ query: QUERY_THOUGHTS });
+
+//       cache.writeQuery({
+//         query: QUERY_THOUGHTS,
+//         data: { thoughts: [addThought, ...thoughts] },
+//       });
+//     } catch (e) {
+//       console.error(e);
+//     }
+
+//     // update me object's cache
+//     const { me } = cache.readQuery({ query: QUERY_ME });
+//     cache.writeQuery({
+//       query: QUERY_ME,
+//       data: { me: { ...me, thoughts: [...me.thoughts, addThought] } },
+//     });
+//   },
+// });
+
+// const handleFormSubmit = async (event) => {
+//     event.preventDefault();
+
+    
+//     try {
+//       const { data } = await addClient({
+//         variables: {
+//           thoughtText,
+//           thoughtAuthor: Auth.getProfile().data.username,
+//         },
+//       });
+
+//       setThoughtText('');
+//     } catch (err) {
+//       console.error(err);
+//     }
+//   };
+
+//   const handleChange = (event) => {
+//     const { name, value } = event.target;
+
+//     if (name === 'thoughtText' && value.length <= 280) {
+//       setThoughtText(value);
+//       setCharacterCount(value.length);
+//     }
+//   };
+
 function ClientAdd() {
     return (
         <div className='background-pink'>
@@ -41,11 +99,11 @@ function ClientAdd() {
                         <Row>
 
                             <Col>
-                                <Form.Control placeholder="first name" />
+                                <Form.Control placeholder="name" />
                             </Col>
-                            <Col xs={6}>
+                            {/* <Col xs={6}>
                                 <Form.Control placeholder="last name" />
-                            </Col>
+                            </Col> */}
                         </Row>
 
                         <Form.Group id="address">

@@ -54,3 +54,15 @@ export const ADD_COMMENT = gql`
     }
   }
 `;
+
+export const ADD_CLIENT = gql`
+  mutation addClient($clientId: ID!, $name: String!, $address: String, $town: String) {
+    addComment(thoughtId: $thoughtId, commentText: $commentText) {
+      _id
+      name
+      address
+      createdAt
+      town
+    }
+  }
+`;

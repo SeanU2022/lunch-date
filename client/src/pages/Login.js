@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useMutation } from '@apollo/client';
 import { LOGIN_USER } from '../utils/mutations';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 
 import Auth from '../utils/auth';
 
@@ -52,31 +54,49 @@ const Login = (props) => {
                 <Link to="/">back to the homepage.</Link>
               </p>
             ) : (
-              <form onSubmit={handleFormSubmit}>
-                <input
-                  className="form-input"
-                  placeholder="Your email"
-                  name="email"
-                  type="email"
-                  value={formState.email}
-                  onChange={handleChange}
-                />
-                <input
-                  className="form-input"
-                  placeholder="******"
-                  name="password"
-                  type="password"
-                  value={formState.password}
-                  onChange={handleChange}
-                />
-                <button
-                  className="btn btn-block btn-primary"
-                  style={{ cursor: 'pointer' }}
-                  type="submit"
-                >
-                  Submit
-                </button>
-              </form>
+              <Form onSubmit={handleFormSubmit}>
+                <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Label>user email address</Form.Label>
+                    <Form.Control name='email' onChange={handleChange} type="email" placeholder="enter email" />
+
+                </Form.Group>
+
+                <Form.Group className="mb-3" controlId="formBasicPassword">
+                    <Form.Label>password</Form.Label>
+                    <Form.Control name = "password" onChange={handleChange} type="password" placeholder="password" />
+                </Form.Group>
+
+                <Button variant="secondary" type="submit">
+                    Submit
+                </Button>
+            </Form>
+
+              
+              // <form onSubmit={handleFormSubmit}>
+              //   <input
+              //     className="form-input"
+              //     placeholder="Your email"
+              //     name="email"
+              //     type="email"
+              //     value={formState.email}
+              //     onChange={handleChange}
+              //   />
+              //   <input
+              //     className="form-input"
+              //     placeholder="******"
+              //     name="password"
+              //     type="password"
+              //     value={formState.password}
+              //     onChange={handleChange}
+              //   />
+              //   <button
+              //     className="btn btn-block btn-primary"
+              //     style={{ cursor: 'pointer' }}
+              //     type="submit"
+              //   >
+              //     Submit
+              //   </button>
+              // </form>
             )}
 
             {error && (
