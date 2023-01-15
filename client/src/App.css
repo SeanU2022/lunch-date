@@ -228,3 +228,7 @@ h3 {
     margin-top: 50px;
   } */
 }
+
+#navbar.container {
+  margin-left: 40px;
+}
