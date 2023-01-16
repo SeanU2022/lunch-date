@@ -44,15 +44,15 @@ const typeDefs = gql`
 
   type Query {
     users: [User]
+    me: User
     user(username: String!): User
     clients: [Client]
     client(clientId: ID!): Client
     meals: [Meal]
     # meal(mealId: ID!): Meal
-
+    
     thoughts(username: String): [Thought]
     thought(thoughtId: ID!): Thought
-    me: User
   }
 
   type Mutation {
