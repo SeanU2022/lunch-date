@@ -111,8 +111,9 @@ h2 {
   /* font-size: 100px */
 }
 
-h3 {
-  font-family: cooper-black-std, serif;
+h3,
+{
+font-family: cooper-black-std, serif;
 }
 
 .modal-content {
@@ -243,3 +244,5 @@ h3 {
 #navbar.container {
   margin-left: 40px;
 }
+
+#town-select {}
