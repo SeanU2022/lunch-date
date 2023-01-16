@@ -24,6 +24,8 @@
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "bootstrap": "^5.2.3",
-    "react-bootstrap": "^2.7.0"
+    "current-day-number": "^1.0.6",
+    "react-bootstrap": "^2.7.0",
+    "react-datepicker": "^4.8.0"
   }
 }

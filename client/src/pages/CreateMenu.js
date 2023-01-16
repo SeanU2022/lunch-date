@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from "react";
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -6,6 +6,12 @@ import * as faSolidIcons from '@fortawesome/free-solid-svg-icons'
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+import InputGroup from 'react-bootstrap/InputGroup';
+
+
+
 
 function CreateMenu() {
     return (
@@ -26,11 +32,18 @@ function CreateMenu() {
                     </Modal.Body>
 
                     <Form>
+                        <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">01 Jan</InputGroup.Text>
+                            <Form.Control
+                                placeholder="meal"
+                                aria-label="meal"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>
+
                         <Row>
 
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
+
                             <Col xs={8}>
                                 <Form.Control placeholder="meal" />
                             </Col>

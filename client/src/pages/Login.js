@@ -4,6 +4,9 @@ import { useMutation } from '@apollo/client';
 import { LOGIN_USER } from '../utils/mutations';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import * as faSolidIcons from '@fortawesome/free-solid-svg-icons'
 
 import Auth from '../utils/auth';
 
@@ -43,71 +46,41 @@ const Login = (props) => {
   };
 
   return (
-    <main className="flex-row justify-center mb-4">
-      <div className="col-12 col-lg-10">
-        <div className="card">
-          <h4 className="card-header bg-dark text-light p-2">Login</h4>
-          <div className="card-body">
-            {data ? (
-              <p>
-                Success! You may now head{' '}
-                <Link to="/">back to the homepage.</Link>
-              </p>
-            ) : (
-              <Form onSubmit={handleFormSubmit}>
-                <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>user email address</Form.Label>
-                    <Form.Control name='email' onChange={handleChange} type="email" placeholder="enter email" />
+    <div className='background-aqua'>
+      <div
+        className="modal show"
+        style={{ display: 'block', position: 'initial' }}
+      >
+        <Modal.Dialog>
 
-                </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>password</Form.Label>
-                    <Form.Control name = "password" onChange={handleChange} type="password" placeholder="password" />
-                </Form.Group>
+          <Modal.Body>
 
-                <Button variant="secondary" type="submit">
-                    Submit
-                </Button>
-            </Form>
+            <h1 id='logo'><FontAwesomeIcon icon={faSolidIcons.faUtensils} /></h1>
+            <h1> lunchDate</h1>
+          </Modal.Body>
 
-              
-              // <form onSubmit={handleFormSubmit}>
-              //   <input
-              //     className="form-input"
-              //     placeholder="Your email"
-              //     name="email"
-              //     type="email"
-              //     value={formState.email}
-              //     onChange={handleChange}
-              //   />
-              //   <input
-              //     className="form-input"
-              //     placeholder="******"
-              //     name="password"
-              //     type="password"
-              //     value={formState.password}
-              //     onChange={handleChange}
-              //   />
-              //   <button
-              //     className="btn btn-block btn-primary"
-              //     style={{ cursor: 'pointer' }}
-              //     type="submit"
-              //   >
-              //     Submit
-              //   </button>
-              // </form>
-            )}
 
-            {error && (
-              <div className="my-3 p-3 bg-danger text-white">
-                {error.message}
-              </div>
-            )}
-          </div>
-        </div>
+          <Form onSubmit={handleFormSubmit}>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Label>user email address</Form.Label>
+              <Form.Control name='email' onChange={handleChange} type="email" placeholder="enter email" />
+
+            </Form.Group>
+
+            <Form.Group className="mb-3" controlId="formBasicPassword">
+              <Form.Label>password</Form.Label>
+              <Form.Control name="password" onChange={handleChange} type="password" placeholder="password" />
+            </Form.Group>
+
+            <Button variant="secondary" type="submit">
+              login
+            </Button>
+          </Form>
+
+        </Modal.Dialog>
       </div>
-    </main>
+    </div>
   );
 };
 
