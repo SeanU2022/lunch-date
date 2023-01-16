@@ -28,7 +28,7 @@ function TumutRed() {
                         <h1>Tumut (Red)</h1>
                         <br></br>
                         <hr></hr>
-                        <h2 className='meal-description'>quiche and salad</h2>
+                        <h2 className='meal-description'><strong>quiche and salad</strong></h2>
                         <hr></hr>
 
                         <h2 id="total">15</h2>
