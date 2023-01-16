@@ -13,6 +13,7 @@ handycode*.js
 dep.sh
 passwords.txt
 /leftovercode
+/client/.eslintcache
 
 # testing
 /coverage

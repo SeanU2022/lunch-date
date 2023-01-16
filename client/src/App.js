@@ -26,7 +26,7 @@ import Batlow from './pages/Batlow';
 import Adelong from './pages/Adelong';
 import ClientEdit from './pages/ClientEdit';
 import Order from './pages/Order';
-import CreateMenu from './pages/CreateMenu';
+// import CreateMenu from './pages/CreateMenu';
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
@@ -117,10 +117,10 @@ function App() {
                 path="/clientorder"
                 element={<Order />}
               />
-              <Route
+              {/* <Route
                 path="/editmenu"
                 element={<CreateMenu />}
-              />
+              /> */}
             </Routes>
           </div>
           {/* <Footer /> */}
