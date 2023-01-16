@@ -3,7 +3,7 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
+es
 # dependencies
 /node_modules
 /.pnp
@@ -13,6 +13,7 @@ handycode*.js
 dep.sh
 passwords.txt
 /leftovercode
+.eslintcache
 /client/.eslintcache
 
 # testing
