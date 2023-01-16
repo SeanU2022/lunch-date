@@ -12,183 +12,153 @@ import Auth from '../utils/auth';
 
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import Dropdown from 'react-bootstrap/Dropdown';
+// import Dropdown from 'react-bootstrap/Dropdown';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import * as faSolidIcons from '@fortawesome/free-solid-svg-icons'
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
 
-class FruitSelector extends React.Component {
-  constructor() {
-    super();
-    this.handleChange = this.handleChange.bind(this);
-    this.state = {
-      selectValue:'Orange'
-    };
-  }
-  
-  handleChange(event){
-    this.setState({selectValue:event.target.value});
-  }
-    
-  render() {
-    var message = 'You selected ' + this.state.selectValue;
-    return (
-      <div>
-        <select 
-          value={this.state.selectValue} 
-          onChange={this.handleChange} 
-        >
-          <option value="Orange">Orange</option>
-          <option value="Pineapple">Pineapple</option>
-          <option value="Cherry">Cherry</option>
-          <option value="Banana">Banana</option>
-          <option value="Pear">Pear</option>
-          <option value="Date">Date</option>
-        </select>
-        <p>{message}</p>
-      </div>        
-    );
-  }
-}
+
 
 const ClientAddForm = () => {
-  // const [thoughtText, setThoughtText] = useState('');
-  const [nameText, setNameText] = useState('');
-  const [addressText, setAddressText] = useState('');
-  const [townText, setTownText] = useState('');
+    // const [thoughtText, setThoughtText] = useState('');
+    const [nameText, setNameText] = useState('');
+    const [addressText, setAddressText] = useState('');
+    const [townText, setTownText] = useState('');
 
-  const [addClient, { error }] = useMutation(ADD_CLIENT, {
-    update(cache, { data: { addClient } }) {
-      try {
-        const { client } = cache.readQuery({ query: QUERY_CLIENT});
+    const [addClient, { error }] = useMutation(ADD_CLIENT, {
+        update(cache, { data: { addClient } }) {
+            try {
+                const { client } = cache.readQuery({ query: QUERY_CLIENT });
 
-        cache.writeQuery({ query: QUERY_CLIENT, data: client });
+                cache.writeQuery({ query: QUERY_CLIENT, data: client });
 
-        console.log('1')
-        console.log(client)
+                console.log('1')
+                console.log(client)
 
-      } catch(e) {
-        console.error(e);
-      }
+            } catch (e) {
+                console.error(e);
+            }
 
-    }
-  });
+        }
+    });
 
-  // const [addThought, { error }] = useMutation(ADD_THOUGHT, {
-  //   update(cache, { data: { addThought } }) {
-  //     try {
-  //       const { thoughts } = cache.readQuery({ query: QUERY_THOUGHTS });
+    // const [addThought, { error }] = useMutation(ADD_THOUGHT, {
+    //   update(cache, { data: { addThought } }) {
+    //     try {
+    //       const { thoughts } = cache.readQuery({ query: QUERY_THOUGHTS });
 
-  //       cache.writeQuery({
-  //         query: QUERY_THOUGHTS,
-  //         data: { thoughts: [addThought, ...thoughts] },
-  //       });
-  //     } catch (e) {
-  //       console.error(e);
-  //     }
+    //       cache.writeQuery({
+    //         query: QUERY_THOUGHTS,
+    //         data: { thoughts: [addThought, ...thoughts] },
+    //       });
+    //     } catch (e) {
+    //       console.error(e);
+    //     }
 
-  //     // update me object's cache
-  //     const { me } = cache.readQuery({ query: QUERY_ME });
-  //     cache.writeQuery({
-  //       query: QUERY_ME,
-  //       data: { me: { ...me, thoughts: [...me.thoughts, addThought] } },
-  //     });
-  //   },
-  // });
+    //     // update me object's cache
+    //     const { me } = cache.readQuery({ query: QUERY_ME });
+    //     cache.writeQuery({
+    //       query: QUERY_ME,
+    //       data: { me: { ...me, thoughts: [...me.thoughts, addThought] } },
+    //     });
+    //   },
+    // });
 
-  const handleFormSubmit = async (event) => {
-    event.preventDefault();
-    console.log('1-2')
-    console.log(nameText)
-    console.log(addressText)
-    console.log(townText)
-    try {
-      const { data } = await addClient({
-        variables: {
-          name: nameText,
-          address: addressText,
-          // town: townText,
-          town: "Tumut (Red)",
-        },
-      });
-      console.log('2')
-      console.log(nameText)
-      console.log(addressText)
-      console.log(townText)
+    const handleFormSubmit = async (event) => {
+        event.preventDefault();
+        console.log('1-2')
+        console.log(nameText)
+        console.log(addressText)
+        console.log(townText)
+        try {
+            const { data } = await addClient({
+                variables: {
+                    name: nameText,
+                    address: addressText,
+                    town: townText,
 
-      setNameText('');
-      setAddressText('');
-      setTownText('');
-    } catch (err) {
-      console.error(err);
-    }
-  };
+                },
+            });
+            console.log('2')
+            console.log(nameText)
+            console.log(addressText)
+            console.log(townText)
 
-  // const handleFormSubmit = async (event) => {
-  //   event.preventDefault();
+            setNameText('');
+            setAddressText('');
+            setTownText('');
+        } catch (err) {
+            console.error(err);
+        }
+    };
 
-  //   try {
-  //     const { data } = await addThought({
-  //       variables: {
-  //         thoughtText,
-  //         thoughtAuthor: Auth.getProfile().data.username,
-  //       },
-  //     });
+    // const handleFormSubmit = async (event) => {
+    //   event.preventDefault();
 
-  //     setThoughtText('');
-  //   } catch (err) {
-  //     console.error(err);
-  //   }
-  // };
+    //   try {
+    //     const { data } = await addThought({
+    //       variables: {
+    //         thoughtText,
+    //         thoughtAuthor: Auth.getProfile().data.username,
+    //       },
+    //     });
 
-  const handleChange = (event) => {
-    const { name, value } = event.target;
+    //     setThoughtText('');
+    //   } catch (err) {
+    //     console.error(err);
+    //   }
+    // };
 
-    if (name === 'nameText' && value.length <= 60) {
-      setNameText(value);
-      // setCharacterCount(value.length);
-    }
+    const handleChange = (event) => {
+        const { name, value } = event.target;
 
-    if (name === 'addressText') {
-      setAddressText(value);
-      // setCharacterCount(value.length);
-    }
-    if (name === 'townText') {
-      setTownText(value);
-      // setCharacterCount(value.length);
-    }
+        if (name === 'nameText' && value.length <= 60) {
+            setNameText(value);
+            // setCharacterCount(value.length);
+        }
 
-    console.log('3')
-    console.log(name)
-    console.log(value)
+        if (name === 'addressText') {
+            setAddressText(value);
+            // setCharacterCount(value.length);
+        }
+        if (name === 'townText') {
+            setTownText(value);
+            // setCharacterCount(value.length);
+        }
 
-  };
+        console.log('3')
+        console.log(name)
+        console.log(value)
 
-  // const handleChange = (event) => {
-  //   const { name, value } = event.target;
+    };
 
-  //   if (name === 'thoughtText' && value.length <= 280) {
-  //     setThoughtText(value);
-  //     setCharacterCount(value.length);
-  //   }
-  // };
+    // const handleChange = (event) => {
+    //   const { name, value } = event.target;
 
-  return (
-    <div>
-      {Auth.loggedIn() ? (
-        <>
-          <div
-            className="flex-row justify-center justify-space-between-md align-center"
-            onSubmit={handleFormSubmit}
-          >
-            <div className='background-pink'>
-              <div
-                  className="modal show"
-                  style={{ display: 'block', position: 'initial' }}
-              >
-                        {/* <div className="col-12 col-lg-9">
+    //   if (name === 'thoughtText' && value.length <= 280) {
+    //     setThoughtText(value);
+    //     setCharacterCount(value.length);
+    //   }
+    // };
+
+    return (
+        <div>
+            {Auth.loggedIn() ? (
+                <>
+                    <div
+                        className="flex-row justify-center justify-space-between-md align-center"
+                    // onSubmit={handleFormSubmit}
+                    >
+                        <div className='background-pink'>
+                            <div
+                                className="modal show"
+                                style={{ display: 'block', position: 'initial' }}
+                            >
+                                {/* <div className="col-12 col-lg-9">
                           <input
                             name="thoughtAuthor"
                             placeholder="Add your name to get credit for the thought..."
@@ -197,72 +167,100 @@ const ClientAddForm = () => {
                             onChange={handleChange}
                           />
                         </div> */}
-                  <Modal.Dialog>
-                      <Modal.Body>
-                          {/* <h1 id='logo'><FontAwesomeIcon icon={faSolidIcons.faUtensils} /></h1> */}
-                          <h2>add client sean</h2>
-                      </Modal.Body>
-                      <Dropdown 
-                          id="dropdown"
-                          name="townText"
-                          value={townText}
-                          onChange={handleChange}
-                          >
-                          <Dropdown.Toggle variant="dark" id="dropdown-basic">
-                              select town
-                          </Dropdown.Toggle>
-                          <Dropdown.Menu>
-                              <Dropdown.Item href="#/action-1">Tumut (Red)</Dropdown.Item>
-                              <Dropdown.Item href="#/action-2">Tumut (Blue)</Dropdown.Item>
-                              <Dropdown.Item href="#/action-3">Gundagai </Dropdown.Item>
-                              <Dropdown.Item href="#/action-3">Batlow </Dropdown.Item>
-                              <Dropdown.Item href="#/action-3">Adelong</Dropdown.Item>
-                          </Dropdown.Menu>
-                      </Dropdown>
-                      <Form>
-                          <Row>
-                              <Col>
-                                  <Form.Control 
-                                    placeholder="name"
-                                    name="nameText"
-                                    value={nameText}
-                                    onChange={handleChange}
-                                  />
-                              </Col>
-                              {/* <Col xs={6}>
+                                <Modal.Dialog>
+                                    <Modal.Body>
+                                        {/* <h1 id='logo'><FontAwesomeIcon icon={faSolidIcons.faUtensils} /></h1> */}
+                                        <h2>add client</h2>
+                                    </Modal.Body>
+                                    <h5>select town</h5>
+                                    <Row>
+                                        {/* <TownSelector
+                                            placeholder="select town"
+                                            name="townText"
+                                            value={townText}
+                                            onChange={handleChange}
+                                        /> */}
+                                    </Row>
+                                    {/* <Dropdown
+                                        id="dropdown"
+                                        name="townText"
+                                        value={townText}
+                                        onChange={handleChange}
+                                    >
+                                        <Dropdown.Toggle variant="dark" id="dropdown-basic">
+                                            select town
+                                        </Dropdown.Toggle>
+                                        <Dropdown.Menu>
+                                            <Dropdown.Item href="#/action-1">Tumut (Red)</Dropdown.Item>
+                                            <Dropdown.Item href="#/action-2">Tumut (Blue)</Dropdown.Item>
+                                            <Dropdown.Item href="#/action-3">Gundagai </Dropdown.Item>
+                                            <Dropdown.Item href="#/action-3">Batlow </Dropdown.Item>
+                                            <Dropdown.Item href="#/action-3">Adelong</Dropdown.Item>
+                                        </Dropdown.Menu>
+                                    </Dropdown> */}
+                                    <Form onSubmit={handleFormSubmit}>
+                                        <Row>
+                                            <Col>
+
+                                                <div id="town-select">
+                                                    <Form.Select id="disabledSelect"
+                                                        type='select'
+                                                        name='townText'
+                                                        value={townText}
+                                                        onChange={handleChange}
+                                                    >
+                                                        <option value="Tumut Red">Tumut (red)</option>
+                                                        <option value="Tumut Blue">Tumut (blue)</option>
+                                                        <option value="Gundagai">Gundagai</option>
+                                                        <option value="Batlow">Batlow</option>
+                                                        <option value="Adelong">Adelong</option>
+                                                    </Form.Select>
+
+                                                    {/* <p>{message}</p> */}
+                                                </div>
+                                            </Col>
+                                        </Row>
+                                        <Row>
+                                            <Col>
+                                                <Form.Control
+                                                    placeholder="name"
+                                                    name="nameText"
+                                                    value={nameText}
+                                                    onChange={handleChange}
+                                                />
+                                            </Col>
+                                            {/* <Col xs={6}>
                                   <Form.Control placeholder="last name" />
                               </Col> */}
-                          </Row>
-                          <Row>
-                            <FruitSelector />
-                          </Row>
-                          <Form.Group id="address">
-                              <Form.Control 
-                                placeholder="address"
-                                name="addressText"
-                                value={addressText}
-                                onChange={handleChange}
-                              />
-                          </Form.Group>
-                          {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                                        </Row>
+
+                                        <Form.Group id="address">
+                                            <Form.Control
+                                                placeholder="address"
+                                                name="addressText"
+                                                value={addressText}
+                                                onChange={handleChange}
+                                            />
+                                        </Form.Group>
+                                        {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
                           <Form.Check type="checkbox" label="Check me out" />
                       </Form.Group> */}
-                          <Button 
-                          // variant="secondary" 
-                              type="submit">
-                              Submit
-                          </Button>
-                      </Form>
-                  </Modal.Dialog>
-              </div>
-            </div>
-            {error && (
-              <div className="col-12 my-3 bg-danger text-white p-3">
-                {error.message}
-              </div>
-            )}
-          </div>
-          {/* <form
+                                        <Button
+                                            // variant="secondary" 
+                                            type="submit">
+                                            Submit
+                                        </Button>
+                                    </Form>
+                                </Modal.Dialog>
+                            </div>
+                        </div>
+                        {error && (
+                            <div className="col-12 my-3 bg-danger text-white p-3">
+                                {error.message}
+                            </div>
+                        )}
+                    </div>
+                    {/* <form
             className="flex-row justify-center justify-space-between-md align-center"
             onSubmit={handleFormSubmit}
           >
@@ -288,15 +286,15 @@ const ClientAddForm = () => {
               </div>
             )}
           </form> */}
-        </>
-      ) : (
-        <p>
-          You need to be logged in to add a client. Please{' '}
-          <Link to="/login">login</Link>
-        </p>
-      )}
-    </div>
-  );
+                </>
+            ) : (
+                <p>
+                    You need to be logged in to add a client. Please{' '}
+                    <Link to="/login">login</Link>
+                </p>
+            )}
+        </div>
+    );
 };
 
 export default ClientAddForm;
