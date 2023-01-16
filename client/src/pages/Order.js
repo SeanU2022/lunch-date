@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import Dropdown from 'react-bootstrap/Dropdown';
+import InputGroup from 'react-bootstrap/InputGroup';
 
 function Order() {
     return (
@@ -39,6 +40,14 @@ function Order() {
                     </Modal.Body>
 
                     <Form>
+                        <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">01 Jan Sausages and vegetables</InputGroup.Text>
+                            <Form.Control
+                                placeholder="meal"
+                                aria-label="meal"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>
                         <Row>
 
                             <Col>
