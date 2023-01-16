@@ -19,6 +19,40 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 
+class FruitSelector extends React.Component {
+  constructor() {
+    super();
+    this.handleChange = this.handleChange.bind(this);
+    this.state = {
+      selectValue:'Orange'
+    };
+  }
+  
+  handleChange(event){
+    this.setState({selectValue:event.target.value});
+  }
+    
+  render() {
+    var message = 'You selected ' + this.state.selectValue;
+    return (
+      <div>
+        <select 
+          value={this.state.selectValue} 
+          onChange={this.handleChange} 
+        >
+          <option value="Orange">Orange</option>
+          <option value="Pineapple">Pineapple</option>
+          <option value="Cherry">Cherry</option>
+          <option value="Banana">Banana</option>
+          <option value="Pear">Pear</option>
+          <option value="Date">Date</option>
+        </select>
+        <p>{message}</p>
+      </div>        
+    );
+  }
+}
+
 const ClientAddForm = () => {
   // const [thoughtText, setThoughtText] = useState('');
   const [nameText, setNameText] = useState('');
@@ -198,6 +232,9 @@ const ClientAddForm = () => {
                               {/* <Col xs={6}>
                                   <Form.Control placeholder="last name" />
                               </Col> */}
+                          </Row>
+                          <Row>
+                            <FruitSelector />
                           </Row>
                           <Form.Group id="address">
                               <Form.Control 

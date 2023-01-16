@@ -5,10 +5,10 @@ import { useQuery, useMutation } from '@apollo/client';
 // import ThoughtForm from '../components/ThoughtForm';
 // import ThoughtList from '../components/ThoughtList';
 
-import { QUERY_USER, QUERY_ME } from '../utils/queries';
-import { ADD_CLIENT } from '../utils/mutations';
+import { QUERY_USER, QUERY_ME } from '../../src/utils/queries';
+import { ADD_CLIENT } from '../../src/utils/mutations';
 
-import Auth from '../utils/auth';
+import Auth from '../../src/utils/auth';
 
 const AddClient = () => {
   const { username: userParam } = useParams();
