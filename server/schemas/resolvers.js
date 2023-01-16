@@ -10,11 +10,16 @@ const resolvers = {
     user: async (parent, { username }) => {
       return User.findOne({ username }).populate('thoughts');
     },
+    me: async (parent, args, context) => {
+      if (context.user) {
+        return User.findOne({ _id: context.user._id }).populate('thoughts');
+      }
+      throw new AuthenticationError('You need to be logged in!');
+    },
 
     clients: async () => {
       return Client.find().sort({ createdAt: -1 });
     },
-
     client: async (parent, { clientId }) => {
       return Client.findOne({ _id: clientId });
     },
@@ -33,13 +38,6 @@ const resolvers = {
     // },
     thought: async (parent, { thoughtId }) => {
       return Thought.findOne({ _id: thoughtId });
-    },
-
-    me: async (parent, args, context) => {
-      if (context.user) {
-        return User.findOne({ _id: context.user._id }).populate('thoughts');
-      }
-      throw new AuthenticationError('You need to be logged in!');
     },
   },
 
@@ -67,12 +65,17 @@ const resolvers = {
       return { token, user };
     },
     addClient: async (parent, { name, address, town }, context) => {
+      console.log(context.user)
       if (context.user) {
         const client = await Client.create({
           name,
           address,
           town
         });
+        console.log('add client')
+        console.log(name)
+        console.log(address)
+        console.log(town)
         return client;
       }
       throw new AuthenticationError('You need to be logged in!');

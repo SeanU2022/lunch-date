@@ -12,6 +12,7 @@ commitmsg.txt
 handycode*.js
 dep.sh
 passwords.txt
+/leftovercode
 
 # testing
 /coverage

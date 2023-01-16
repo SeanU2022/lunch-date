@@ -12,7 +12,7 @@ const clientSchema = new Schema({
   address: {
     type: String,
     // required: true,
-    required: 'You need to add the address!',
+    // required: 'You need to add the address!',
     trim: true,
   },
   createdAt: {
@@ -21,9 +21,8 @@ const clientSchema = new Schema({
     get: (timestamp) => dateFormat(timestamp),
   },
   town: {
-    type: String,   
-    enum: ['Tumut Red Run', 'Tumut Blue Run', 'Batlow', 'Gundagai', 'Adelong'],
-    default: 'Tumut Red Run',
+    type: String,
+    trim: true,
   },
 });
 

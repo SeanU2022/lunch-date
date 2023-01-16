@@ -24,6 +24,31 @@ export const ADD_USER = gql`
   }
 `;
 
+// export const ADD_CLIENT = gql`
+//   # mutation addClient($clientId: ID!, $name: String!, $address: String, $town: String) {
+//   mutation addClient($name: String!, $address: String, $town: String!) {
+//     addClient(name: $name, address: $address, town: $town) {
+//       _id
+//       name
+//       address
+//       createdAt
+//       town
+//     }
+//   }
+// `;
+export const ADD_CLIENT = gql`
+  mutation AddClient($name: String!, $address: String!, $town: String!) {
+    addClient(name: $name, address: $address, town: $town) {
+      address
+      _id
+      name
+      town
+    }
+  }
+`;
+
+// OLD CODE
+
 export const ADD_THOUGHT = gql`
   mutation addThought($thoughtText: String!) {
     addThought(thoughtText: $thoughtText) {
@@ -51,18 +76,6 @@ export const ADD_COMMENT = gql`
         commentText
         createdAt
       }
-    }
-  }
-`;
-
-export const ADD_CLIENT = gql`
-  mutation addClient($clientId: ID!, $name: String!, $address: String, $town: String) {
-    addComment(thoughtId: $thoughtId, commentText: $commentText) {
-      _id
-      name
-      address
-      createdAt
-      town
     }
   }
 `;

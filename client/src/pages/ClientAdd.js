@@ -1,6 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { useQuery, useMutation } from '@apollo/client';
+
+// import { ADD_THOUGHT} from '../utils/mutations';
+// import { QUERY_THOUGHTS, QUERY_ME } from '../utils/queries';
+
+import { ADD_CLIENT } from '../utils/mutations';
+import { QUERY_CLIENT } from '../utils/queries';
+
+import Auth from '../utils/auth';
+
 import Button from 'react-bootstrap/Button';
-import Login from './LoginTrentan';
 import Modal from 'react-bootstrap/Modal';
 import Dropdown from 'react-bootstrap/Dropdown';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -9,119 +19,247 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 
-// import { useMutation } from '@apollo/client';
+const ClientAddForm = () => {
+  // const [thoughtText, setThoughtText] = useState('');
+  const [nameText, setNameText] = useState('');
+  const [addressText, setAddressText] = useState('');
+  const [townText, setTownText] = useState('');
 
-// import { ADD_CLIENT } from '../../utils/mutations';
+  const [addClient, { error }] = useMutation(ADD_CLIENT, {
+    update(cache, { data: { addClient } }) {
+      try {
+        const { client } = cache.readQuery({ query: QUERY_CLIENT});
 
+        cache.writeQuery({ query: QUERY_CLIENT, data: client });
 
-// const [thoughtText, setThoughtText] = useState('');
+        console.log('1')
+        console.log(client)
 
-// const [characterCount, setCharacterCount] = useState(0);
+      } catch(e) {
+        console.error(e);
+      }
 
-// const [addThought, { error }] = useMutation(ADD_CLIENT, {
-//   update(cache, { data: { addThought } }) {
-//     try {
-//       const { thoughts } = cache.readQuery({ query: QUERY_THOUGHTS });
+    }
+  });
 
-//       cache.writeQuery({
-//         query: QUERY_THOUGHTS,
-//         data: { thoughts: [addThought, ...thoughts] },
-//       });
-//     } catch (e) {
-//       console.error(e);
-//     }
+  // const [addThought, { error }] = useMutation(ADD_THOUGHT, {
+  //   update(cache, { data: { addThought } }) {
+  //     try {
+  //       const { thoughts } = cache.readQuery({ query: QUERY_THOUGHTS });
 
-//     // update me object's cache
-//     const { me } = cache.readQuery({ query: QUERY_ME });
-//     cache.writeQuery({
-//       query: QUERY_ME,
-//       data: { me: { ...me, thoughts: [...me.thoughts, addThought] } },
-//     });
-//   },
-// });
+  //       cache.writeQuery({
+  //         query: QUERY_THOUGHTS,
+  //         data: { thoughts: [addThought, ...thoughts] },
+  //       });
+  //     } catch (e) {
+  //       console.error(e);
+  //     }
 
-// const handleFormSubmit = async (event) => {
-//     event.preventDefault();
+  //     // update me object's cache
+  //     const { me } = cache.readQuery({ query: QUERY_ME });
+  //     cache.writeQuery({
+  //       query: QUERY_ME,
+  //       data: { me: { ...me, thoughts: [...me.thoughts, addThought] } },
+  //     });
+  //   },
+  // });
 
-    
-//     try {
-//       const { data } = await addClient({
-//         variables: {
-//           thoughtText,
-//           thoughtAuthor: Auth.getProfile().data.username,
-//         },
-//       });
+  const handleFormSubmit = async (event) => {
+    event.preventDefault();
+    console.log('1-2')
+    console.log(nameText)
+    console.log(addressText)
+    console.log(townText)
+    try {
+      const { data } = await addClient({
+        variables: {
+          name: nameText,
+          address: addressText,
+          // town: townText,
+          town: "Tumut (Red)",
+        },
+      });
+      console.log('2')
+      console.log(nameText)
+      console.log(addressText)
+      console.log(townText)
 
-//       setThoughtText('');
-//     } catch (err) {
-//       console.error(err);
-//     }
-//   };
+      setNameText('');
+      setAddressText('');
+      setTownText('');
+    } catch (err) {
+      console.error(err);
+    }
+  };
 
-//   const handleChange = (event) => {
-//     const { name, value } = event.target;
+  // const handleFormSubmit = async (event) => {
+  //   event.preventDefault();
 
-//     if (name === 'thoughtText' && value.length <= 280) {
-//       setThoughtText(value);
-//       setCharacterCount(value.length);
-//     }
-//   };
+  //   try {
+  //     const { data } = await addThought({
+  //       variables: {
+  //         thoughtText,
+  //         thoughtAuthor: Auth.getProfile().data.username,
+  //       },
+  //     });
 
-function ClientAdd() {
-    return (
-        <div className='background-pink'>
-            <div
-                className="modal show"
-                style={{ display: 'block', position: 'initial' }}
-            >
-                <Modal.Dialog>
+  //     setThoughtText('');
+  //   } catch (err) {
+  //     console.error(err);
+  //   }
+  // };
 
+  const handleChange = (event) => {
+    const { name, value } = event.target;
 
-                    <Modal.Body>
+    if (name === 'nameText' && value.length <= 60) {
+      setNameText(value);
+      // setCharacterCount(value.length);
+    }
 
-                        {/* <h1 id='logo'><FontAwesomeIcon icon={faSolidIcons.faUtensils} /></h1> */}
-                        <h2> add client</h2>
-                    </Modal.Body>
-                    <Dropdown id="dropdown">
-                        <Dropdown.Toggle variant="dark" id="dropdown-basic">
-                            select town
-                        </Dropdown.Toggle>
+    if (name === 'addressText') {
+      setAddressText(value);
+      // setCharacterCount(value.length);
+    }
+    if (name === 'townText') {
+      setTownText(value);
+      // setCharacterCount(value.length);
+    }
 
-                        <Dropdown.Menu>
-                            <Dropdown.Item href="#/action-1">Tumut (Red)</Dropdown.Item>
-                            <Dropdown.Item href="#/action-2">Tumut (Blue)</Dropdown.Item>
-                            <Dropdown.Item href="#/action-3">Gundagai </Dropdown.Item>
-                            <Dropdown.Item href="#/action-3">Batlow </Dropdown.Item>
-                            <Dropdown.Item href="#/action-3">Adelong</Dropdown.Item>
-                        </Dropdown.Menu>
-                    </Dropdown>
-                    <Form>
-                        <Row>
+    console.log('3')
+    console.log(name)
+    console.log(value)
 
-                            <Col>
-                                <Form.Control placeholder="name" />
-                            </Col>
-                            {/* <Col xs={6}>
-                                <Form.Control placeholder="last name" />
-                            </Col> */}
-                        </Row>
+  };
 
-                        <Form.Group id="address">
+  // const handleChange = (event) => {
+  //   const { name, value } = event.target;
 
-                            <Form.Control placeholder="address" />
-                        </Form.Group>
-                        {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                        <Form.Check type="checkbox" label="Check me out" />
-                    </Form.Group> */}
-                        <Button variant="secondary" type="submit">
-                            Submit
-                        </Button>
-                    </Form>
-                </Modal.Dialog>
+  //   if (name === 'thoughtText' && value.length <= 280) {
+  //     setThoughtText(value);
+  //     setCharacterCount(value.length);
+  //   }
+  // };
+
+  return (
+    <div>
+      {Auth.loggedIn() ? (
+        <>
+          <div
+            className="flex-row justify-center justify-space-between-md align-center"
+            onSubmit={handleFormSubmit}
+          >
+            <div className='background-pink'>
+              <div
+                  className="modal show"
+                  style={{ display: 'block', position: 'initial' }}
+              >
+                        {/* <div className="col-12 col-lg-9">
+                          <input
+                            name="thoughtAuthor"
+                            placeholder="Add your name to get credit for the thought..."
+                            value={formState.thoughtAuthor}
+                            className="form-input w-100"
+                            onChange={handleChange}
+                          />
+                        </div> */}
+                  <Modal.Dialog>
+                      <Modal.Body>
+                          {/* <h1 id='logo'><FontAwesomeIcon icon={faSolidIcons.faUtensils} /></h1> */}
+                          <h2>add client sean</h2>
+                      </Modal.Body>
+                      <Dropdown 
+                          id="dropdown"
+                          name="townText"
+                          value={townText}
+                          onChange={handleChange}
+                          >
+                          <Dropdown.Toggle variant="dark" id="dropdown-basic">
+                              select town
+                          </Dropdown.Toggle>
+                          <Dropdown.Menu>
+                              <Dropdown.Item href="#/action-1">Tumut (Red)</Dropdown.Item>
+                              <Dropdown.Item href="#/action-2">Tumut (Blue)</Dropdown.Item>
+                              <Dropdown.Item href="#/action-3">Gundagai </Dropdown.Item>
+                              <Dropdown.Item href="#/action-3">Batlow </Dropdown.Item>
+                              <Dropdown.Item href="#/action-3">Adelong</Dropdown.Item>
+                          </Dropdown.Menu>
+                      </Dropdown>
+                      <Form>
+                          <Row>
+                              <Col>
+                                  <Form.Control 
+                                    placeholder="name"
+                                    name="nameText"
+                                    value={nameText}
+                                    onChange={handleChange}
+                                  />
+                              </Col>
+                              {/* <Col xs={6}>
+                                  <Form.Control placeholder="last name" />
+                              </Col> */}
+                          </Row>
+                          <Form.Group id="address">
+                              <Form.Control 
+                                placeholder="address"
+                                name="addressText"
+                                value={addressText}
+                                onChange={handleChange}
+                              />
+                          </Form.Group>
+                          {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                          <Form.Check type="checkbox" label="Check me out" />
+                      </Form.Group> */}
+                          <Button 
+                          // variant="secondary" 
+                              type="submit">
+                              Submit
+                          </Button>
+                      </Form>
+                  </Modal.Dialog>
+              </div>
             </div>
-        </div>
-    )
-}
+            {error && (
+              <div className="col-12 my-3 bg-danger text-white p-3">
+                {error.message}
+              </div>
+            )}
+          </div>
+          {/* <form
+            className="flex-row justify-center justify-space-between-md align-center"
+            onSubmit={handleFormSubmit}
+          >
+            <div className="col-12 col-lg-9">
+              <textarea
+                name="thoughtText"
+                placeholder="Here's a new thought..."
+                value={thoughtText}
+                className="form-input w-100"
+                style={{ lineHeight: '1.5', resize: 'vertical' }}
+                onChange={handleChange}
+              ></textarea>
+            </div>
 
-export default ClientAdd;
+            <div className="col-12 col-lg-3">
+              <button className="btn btn-primary btn-block py-3" type="submit">
+                Add Thought
+              </button>
+            </div>
+            {error && (
+              <div className="col-12 my-3 bg-danger text-white p-3">
+                {error.message}
+              </div>
+            )}
+          </form> */}
+        </>
+      ) : (
+        <p>
+          You need to be logged in to add a client. Please{' '}
+          <Link to="/login">login</Link>
+        </p>
+      )}
+    </div>
+  );
+};
 
+export default ClientAddForm;

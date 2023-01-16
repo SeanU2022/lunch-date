@@ -17,7 +17,7 @@ import Header from './components/Header';
 // import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Modal from 'react-bootstrap/Modal';
-import ClientAdd from './pages/ClientAdd';
+import ClientAddForm from './pages/ClientAdd'
 import Landing from './components/Landing';
 import TumutRed from './pages/TumutRed';
 import TumutBlue from './pages/TumutBlue';
@@ -27,7 +27,6 @@ import Adelong from './pages/Adelong';
 import ClientEdit from './pages/ClientEdit';
 import Order from './pages/Order';
 import CreateMenu from './pages/CreateMenu';
-
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
@@ -82,8 +81,9 @@ function App() {
                 element={<Profile />}
               />
               <Route
-                path="/addclient"
-                element={<ClientAdd />}
+                path="/addClient"
+                // element={<ClientAdd />}
+                element={<ClientAddForm />}
               />
               <Route
                 path="/editclient"
