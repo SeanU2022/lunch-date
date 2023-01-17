@@ -80,7 +80,6 @@ const ClientAddForm = () => {
                     name: nameText,
                     address: addressText,
                     town: townText,
-
                 },
             });
             console.log('2')

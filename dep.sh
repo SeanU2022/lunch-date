@@ -1,4 +1,4 @@
-# this does the setup from scratch
+# depLOY-LOCALLY does the setup from scratch
 # # dep.sh: script for this project: 3 steps: 'touch dep.sh' then 'chmod +x dep.sh' then write your commands
 # run me: ./dep.sh
 npm install

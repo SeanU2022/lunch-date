@@ -46,8 +46,9 @@ const typeDefs = gql`
     users: [User]
     me: User
     user(username: String!): User
-    clients: [Client]
     client(clientId: ID!): Client
+    clients: [Client]    
+    meal(mealId: ID!): Meal
     meals: [Meal]
     # meal(mealId: ID!): Meal
     
@@ -60,7 +61,10 @@ const typeDefs = gql`
     login(email: String!, password: String!): Auth
     addClient(name: String!, address: String!, town: String!): Client
     updateClient(id: ID!, name: String!, address: String!, town: String!): Client
-    addMeal(name: String!, type: String!): Meal
+
+
+    # addMeal(name: String!, type: String!): Meal  FUTURE
+    
     addThought(thoughtText: String!): Thought
     addComment(thoughtId: ID!, commentText: String!): Thought
     removeThought(thoughtId: ID!): Thought
