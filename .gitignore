@@ -8,9 +8,9 @@
 /node_modules
 /.pnp
 .pnp.js
+importLive.sh
 # commitmsg: complex git commit messages, handycode: not for prod, 
 # dep.sh: script for this project: 3 steps: 'touch dep.sh' then 'chmod +x dep.sh' then write your commands
-importLive.sh
 commitmsg.txt
 handycode*.js
 passwords.txt

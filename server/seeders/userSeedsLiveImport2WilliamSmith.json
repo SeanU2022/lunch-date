@@ -1,8 +1,0 @@
-{
-  "_id": { "$oid": "63c5d9202c8de30d0d0f2383" },
-  "username": "William Smith",
-  "email": "will@techfriends.dev",
-  "password": "$2b$10$X7OZ1t0x6ZscNxLfjCgImerPeoqjZnuLJl8ncRkz.rfAG7NKcR.ca",
-  "thoughts": [],
-  "__v": 0
-}

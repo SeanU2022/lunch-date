@@ -15,9 +15,7 @@ const mealSchema = new Schema({
     get: (timestamp) => dateFormat(timestamp),
   },
   type: {
-    type: String,   
-    enum: ['Soup', 'Main', 'Dessert'],
-    default: 'Main',
+    type: String,
   },
 });
 

@@ -17,13 +17,16 @@ const resolvers = {
       throw new AuthenticationError('You need to be logged in!');
     },
 
-    clients: async () => {
-      return Client.find().sort({ createdAt: -1 });
-    },
     client: async (parent, { clientId }) => {
       return Client.findOne({ _id: clientId });
     },
+    clients: async () => {
+      return Client.find().sort({ createdAt: -1 });
+    },
 
+    meal: async (parent, { mealId }) => {
+      return Meal.findOne({ _id: mealId });
+    },
     meals: async () => {
       return Meal.find().sort({ createdAt: -1 });
     },
