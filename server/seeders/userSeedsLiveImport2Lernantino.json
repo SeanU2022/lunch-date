@@ -1,0 +1,10 @@
+{
+  "_id": {
+    "$oid": "63c5d9202c8de30d0d0f238a"
+  },
+  "username": "Lernantino",
+  "email": "lernantino@techfriends.dev",
+  "password": "$2b$10$rtNHT4H3UbCoSh/5aChA7up4Ulrm/Y6mWwRn1wHGNp9FWIq3iE2ey",
+  "thoughts": [],
+  "__v": 0
+}

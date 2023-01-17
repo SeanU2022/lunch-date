@@ -1,0 +1,108 @@
+[{
+  "_id": { "$oid": "63c5d9202c8de30d0d0f2383" },
+  "username": "William Smith",
+  "email": "will@techfriends.dev",
+  "password": "$2b$10$X7OZ1t0x6ZscNxLfjCgImerPeoqjZnuLJl8ncRkz.rfAG7NKcR.ca",
+  "thoughts": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63c5d9202c8de30d0d0f2384"
+  },
+  "username": "Kent Beck",
+  "email": "kbeck@techfriends.dev",
+  "password": "$2b$10$7t1jjKqhAtbpQjX0sJJCmuggnP/IiNCV.8DqBTWL49bMdJAS88lbi",
+  "thoughts": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63c5d9202c8de30d0d0f2382"
+  },
+  "username": "Max Kanat-Alexander",
+  "email": "mkanatalexander@techfriends.dev",
+  "password": "$2b$10$86uAIEO3uyXds3b.QfMLD.eTnDDr3BuqkwymMyNefdOWtXwVVer7q",
+  "thoughts": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63c5d9202c8de30d0d0f2381"
+  },
+  "username": "Brian Kernighan",
+  "email": "bkernighan@techfriends.dev",
+  "password": "$2b$10$7QipqyZjoJq50jbhoBChH.xpW2IspTnXYiiqKbE5AQdFuSiis/XbW",
+  "thoughts": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63c5d9202c8de30d0d0f2385"
+  },
+  "username": "Edward V. Berard",
+  "email": "evberard@techfriends.dev",
+  "password": "$2b$10$qRHa3DSbs9.EM7gyactfxeN8/.XNYYsaQVmb.MidAmeka6YxlEiYq",
+  "thoughts": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63c5d9202c8de30d0d0f2386"
+  },
+  "username": "Alan Kay",
+  "email": "akay@techfriends.dev",
+  "password": "$2b$10$yOnfm6H2zRBLMKR9J0hwueZBq1ZubXjYRveCBY53yWXLYrpptXnXy",
+  "thoughts": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63c5d9202c8de30d0d0f2388"
+  },
+  "username": "David Thomas",
+  "email": "dthomas@techfriends.dev",
+  "password": "$2b$10$UR4hqCEtbG38PmCIj7SUCe4VS89h8Zb8GvwV4/CIS/0VbHJQ969dC",
+  "thoughts": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63c5d9202c8de30d0d0f2387"
+  },
+  "username": "Charlie Jones",
+  "email": "charlie@techfriends.dev",
+  "password": "$2b$10$pgGitAncMi8cJGH95lpsQ.WGqQNZ1iqVigYxL7s9B.wuOFmz7Ktz2",
+  "thoughts": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63c5d9202c8de30d0d0f2389"
+  },
+  "username": "Donald Knuth",
+  "email": "dknuth@techfriends.dev",
+  "password": "$2b$10$dbO/UiHI2PHK1U8ExeDhJ.p.YA2hy3ZkNVxh9Pjcc/Y22VYFLYr.e",
+  "thoughts": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63c5d9202c8de30d0d0f238a"
+  },
+  "username": "Lernantino",
+  "email": "lernantino@techfriends.dev",
+  "password": "$2b$10$rtNHT4H3UbCoSh/5aChA7up4Ulrm/Y6mWwRn1wHGNp9FWIq3iE2ey",
+  "thoughts": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63c5d9202c8de30d0d0f238b"
+  },
+  "username": "Sean",
+  "email": "a@a.com",
+  "password": "$2b$10$zcxK7hercPogAa/mVjvNlOHo65mH5NP1YM7.PK.b9SYcaZoPvMsem",
+  "thoughts": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63c5d9202c8de30d0d0f238c"
+  },
+  "username": "Trentan",
+  "email": "b@b.com",
+  "password": "$2b$10$vzArgOuVMFhlAVCvt7LJ9eFosM3QlFciEH5PYiY1lsZZe4gyxlCuG",
+  "thoughts": [],
+  "__v": 0
+}]

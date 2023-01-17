@@ -1,0 +1,10 @@
+{
+  "_id": {
+    "$oid": "63c5d9202c8de30d0d0f2382"
+  },
+  "username": "Max Kanat-Alexander",
+  "email": "mkanatalexander@techfriends.dev",
+  "password": "$2b$10$86uAIEO3uyXds3b.QfMLD.eTnDDr3BuqkwymMyNefdOWtXwVVer7q",
+  "thoughts": [],
+  "__v": 0
+}
