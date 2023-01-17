@@ -32,8 +32,19 @@ export const QUERY_ME = gql`
 `;
 
 export const QUERY_CLIENT = gql`
-  query client {
-    client {
+  query Client($clientId: ID!) {
+    client(clientId: $clientId) {
+      _id
+      name
+      address
+      town
+    }
+  }
+`;
+
+export const QUERY_CLIENTS = gql`
+  query Clients {
+    clients {
       _id
       name
       address

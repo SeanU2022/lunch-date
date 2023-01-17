@@ -27,7 +27,7 @@ const SingleThought = () => {
     <div className="my-3">
       <h3 className="card-header bg-dark text-light p-2 m-0">
         {thought.thoughtAuthor} <br />
-        <span style={{ fontSize: '1rem' }}>
+        client/src/components/ThoughtList        <span style={{ fontSize: '1rem' }}>
           had this thought on {thought.createdAt}
         </span>
       </h3>

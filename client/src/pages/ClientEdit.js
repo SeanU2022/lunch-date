@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Button from 'react-bootstrap/Button';
 import Login from './LoginTrentan';
 import Modal from 'react-bootstrap/Modal';
@@ -8,8 +8,63 @@ import * as faSolidIcons from '@fortawesome/free-solid-svg-icons'
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
+import { QUERY_CLIENTS, QUERY_CLIENT } from '../utils/queries';
+import { useQuery, useLazyQuery, useMutation } from '@apollo/client';
+import { UPDATE_CLIENT } from '../utils/mutations';
+
+
 
 function ClientEdit() {
+    const { data: clientsData } = useQuery(QUERY_CLIENTS);
+    const clients = clientsData?.clients || [];
+
+    const [getSelectedClient, { data: clientData }] = useLazyQuery(QUERY_CLIENT);
+    const selectedClient = clientData?.client;
+
+    const [updateClient, { error }] = useMutation(UPDATE_CLIENT);
+
+    const [state, setState] = useState({
+        name: undefined,
+        town: undefined,
+        address: undefined
+    });
+
+
+    const handleFormSubmit = async (event) => {
+        event.preventDefault();
+
+        try {
+            const { data } = await updateClient({
+                variables: {
+                    updateClientId: selectedClient._id,
+                    name: state.name,
+                    address: state.address,
+                    town: state.town
+
+                },
+            });
+
+
+        } catch (err) {
+            console.error(err);
+        }
+    };
+
+    useEffect(() => {
+        if (selectedClient) {
+            setState(selectedClient)
+        }
+    }, [selectedClient])
+
+    console.log(state, selectedClient)
+    function handleClientClick(clientId) {
+        console.log("Selected client", clientId)
+        getSelectedClient({
+            variables: {
+                clientId
+            }
+        })
+    }
     return (
         <div className='background-pink2'>
             <div
@@ -30,35 +85,34 @@ function ClientEdit() {
                         </Dropdown.Toggle>
 
                         <Dropdown.Menu>
-                            <Dropdown.Item href="#/action-1">Tumut (Red)</Dropdown.Item>
-                            <Dropdown.Item href="#/action-2">Tumut (Blue)</Dropdown.Item>
-                            <Dropdown.Item href="#/action-3">Gundagai </Dropdown.Item>
-                            <Dropdown.Item href="#/action-3">Batlow </Dropdown.Item>
-                            <Dropdown.Item href="#/action-3">Adelong</Dropdown.Item>
+                            {clients.map(client => <Dropdown.Item href="#" onClick={() => handleClientClick(client._id)}>{client.name}</Dropdown.Item>)}
                         </Dropdown.Menu>
                     </Dropdown>
-                    <Form>
-                        <Row>
+                    {selectedClient &&
+                        <Form onSubmit={handleFormSubmit}>
+                            <Row>
 
-                            <Col>
-                                <Form.Control placeholder="first name" />
-                            </Col>
-                            <Col xs={6}>
-                                <Form.Control placeholder="last name" />
-                            </Col>
-                        </Row>
+                                <Col>
+                                    <Form.Control placeholder="name" value={state.name} onChange={(e) => setState({ ...state, name: e.target.value })} />
+                                </Col>
+                                <Col xs={6}>
+                                    <Form.Control placeholder="town" value={state.town} onChange={(e) => setState({ ...state, town: e.target.value })} />
+                                </Col>
+                            </Row>
 
-                        <Form.Group id="address">
+                            <Form.Group id="address">
 
-                            <Form.Control placeholder="address" />
-                        </Form.Group>
-                        {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                        <Form.Check type="checkbox" label="Check me out" />
-                    </Form.Group> */}
-                        <Button variant="secondary" type="submit">
-                            Submit
-                        </Button>
-                    </Form>
+                                <Form.Control placeholder="address" value={state.address} onChange={(e) => setState({ ...state, address: e.target.value })} />
+                            </Form.Group>
+                            {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                    <Form.Check type="checkbox" label="Check me out" />
+                </Form.Group> */}
+                            <Button variant="secondary" type="submit">
+                                Save
+                            </Button>
+                        </Form>
+                    }
+
                 </Modal.Dialog>
             </div>
         </div>
