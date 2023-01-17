@@ -3,14 +3,16 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-es
+
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
+# commitmsg: complex git commit messages, handycode: not for prod, 
+# dep.sh: script for this project: 3 steps: 'touch dep.sh' then 'chmod +x dep.sh' then write your commands
+importLive.sh
 commitmsg.txt
 handycode*.js
-dep.sh
 passwords.txt
 /leftovercode
 .eslintcache

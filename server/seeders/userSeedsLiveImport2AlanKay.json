@@ -1,0 +1,10 @@
+{
+  "_id": {
+    "$oid": "63c5d9202c8de30d0d0f2386"
+  },
+  "username": "Alan Kay",
+  "email": "akay@techfriends.dev",
+  "password": "$2b$10$yOnfm6H2zRBLMKR9J0hwueZBq1ZubXjYRveCBY53yWXLYrpptXnXy",
+  "thoughts": [],
+  "__v": 0
+}
