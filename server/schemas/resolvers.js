@@ -42,6 +42,7 @@ const resolvers = {
   },
 
   Mutation: {
+    // User
     addUser: async (parent, { username, email, password }) => {
       const user = await User.create({ username, email, password });
       const token = signToken(user);
@@ -64,6 +65,7 @@ const resolvers = {
 
       return { token, user };
     },
+    // Client
     addClient: async (parent, { name, address, town }, context) => {
       console.log(context.user)
       if (context.user) {
@@ -79,6 +81,39 @@ const resolvers = {
         return client;
       }
       throw new AuthenticationError('You need to be logged in!');
+    },
+    // updateClient: async (parent, { name, address, town }, context) => {
+    //   console.log(context.user)
+    //   if (context.user) {
+    //     const client = await Client.create({
+    //       name,
+    //       address,
+    //       town
+    //     });
+    //     console.log('add client')
+    //     console.log(name)
+    //     console.log(address)
+    //     console.log(town)
+    //     return client;
+    //   }
+    //   throw new AuthenticationError('You need to be logged in!');
+    // },
+    // tuesday
+    updateClient: async (parent, { id, name, address, town }, context) => {
+      // Find and update the matching class using the destructured args
+      console.log(context.user)
+      if (context.user) {
+        const client = await Client.findOneAndUpdate(
+          { _id: id }, 
+          { name ,
+           address ,
+           town },
+          // Return the newly updated object instead of the original
+          { new: true }
+        );
+        return client;
+      }
+      throw new AuthenticationError('You need to be logged in!')
     },
     addThought: async (parent, { thoughtText }, context) => {
       if (context.user) {

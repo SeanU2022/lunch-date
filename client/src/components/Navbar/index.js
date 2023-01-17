@@ -23,6 +23,7 @@ function NavTop() {
                     <Navbar.Brand href="#home"><h2 id="nav-logo"><FontAwesomeIcon icon={faSolidIcons.faUtensils} /> lunchDate</h2></Navbar.Brand>
                     <Nav.Link href="/addclient">add client <FontAwesomeIcon icon={faSolidIcons.faUserPlus} /></Nav.Link>
                     <Nav.Link href="/editclient">edit client <FontAwesomeIcon icon={faSolidIcons.faUserPen} /></Nav.Link>
+                    <Nav.Link href="/listclients">list clients <FontAwesomeIcon icon={faSolidIcons.faUserPen} /></Nav.Link>
                     <Nav.Link href="/clientorder">client order <FontAwesomeIcon icon={faSolidIcons.faPen} /></Nav.Link>
                     <Nav.Link href="/editmenu">menu editor <FontAwesomeIcon icon={faSolidIcons.faPenToSquare} /></Nav.Link>
                     <NavDropdown title="view" id="navbarScrollingDropdown">
