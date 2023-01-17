@@ -18,6 +18,7 @@ import Header from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Modal from 'react-bootstrap/Modal';
 import ClientAddForm from './pages/ClientAdd'
+import ClientListForm from './pages/ClientList';
 import Landing from './components/Landing';
 import TumutRed from './pages/TumutRed';
 import TumutBlue from './pages/TumutBlue';
@@ -84,6 +85,11 @@ function App() {
                 path="/addClient"
                 // element={<ClientAdd />}
                 element={<ClientAddForm />}
+              />
+              <Route
+                path="/listclients"
+                // element={<ClientAdd />}
+                element={<ClientListForm />}
               />
               <Route
                 path="/editclient"

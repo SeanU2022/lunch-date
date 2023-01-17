@@ -59,6 +59,7 @@ const typeDefs = gql`
     addUser(username: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
     addClient(name: String!, address: String!, town: String!): Client
+    updateClient(id: ID!, name: String!, address: String!, town: String!): Client
     addMeal(name: String!, type: String!): Meal
     addThought(thoughtText: String!): Thought
     addComment(thoughtId: ID!, commentText: String!): Thought
