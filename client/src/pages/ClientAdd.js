@@ -6,7 +6,7 @@ import { useQuery, useMutation } from '@apollo/client';
 // import { QUERY_THOUGHTS, QUERY_ME } from '../utils/queries';
 
 import { ADD_CLIENT } from '../utils/mutations';
-import { QUERY_CLIENT } from '../utils/queries';
+import { QUERY_CLIENTS } from '../utils/queries';
 
 import Auth from '../utils/auth';
 
@@ -32,9 +32,9 @@ const ClientAddForm = () => {
     const [addClient, { error }] = useMutation(ADD_CLIENT, {
         update(cache, { data: { addClient } }) {
             try {
-                const { client } = cache.readQuery({ query: QUERY_CLIENT });
+                const { client } = cache.readQuery({ query: QUERY_CLIENTS });
 
-                cache.writeQuery({ query: QUERY_CLIENT, data: client });
+                cache.writeQuery({ query: QUERY_CLIENTS, data: client });
 
                 console.log('1')
                 console.log(client)

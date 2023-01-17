@@ -79,3 +79,14 @@ export const ADD_COMMENT = gql`
     }
   }
 `;
+
+export const UPDATE_CLIENT = gql`
+  mutation UpdateClient($updateClientId: ID!, $name: String!, $address: String!, $town: String!) {
+    updateClient(id: $updateClientId, name: $name, address: $address, town: $town) {
+      address
+      name
+      town
+      _id
+    }
+  }
+`;
