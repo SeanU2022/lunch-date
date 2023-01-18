@@ -1,6 +1,6 @@
 [
   {
-    "name": "Sausages, Vegetables and Potato with Gravy",
+    "name": "Sausages and vegetables",
     "vegetarian": "false",
     "servings": "1"
   },
@@ -20,12 +20,12 @@
     "servings": "1"
   },
   {
-    "name": "Corned Silverside and Roast Vegetables",
+    "name": "Corned Silverside and veg",
     "vegetarian": "false",
     "servings": "1"
   },
   {
-    "name": "Meatloaf with Potato and Vegetables",
+    "name": "Meatloaf with Vegetables",
     "vegetarian": "false",
     "servings": "1"
   },
@@ -50,7 +50,7 @@
     "servings": "1"
   },
   {
-    "name": "Chicken Schnitzel with Potato Bake and Vegetables",
+    "name": "Chicken Schnitzel with veg",
     "vegetarian": "false",
     "servings": "1"
   },
@@ -70,7 +70,7 @@
     "servings": "1"
   },
   {
-    "name": "Roast Turkey and Roast Vegetables with Cranberry Sauce",
+    "name": "Roast Turkey and Roast Vegetables",
     "vegetarian": "false",
     "servings": "1"
   }

@@ -1,5 +1,17 @@
 import { gql } from '@apollo/client';
 
+// TODO align this to meet our backend
+export const GET_MEALS = gql`
+{
+    meals {
+        _id
+        name
+        vegetarian
+        servings
+    }
+}
+`;
+
 export const QUERY_USER = gql`
   query user($username: String!) {
     user(username: $username) {
@@ -53,16 +65,6 @@ export const QUERY_CLIENTS = gql`
   }
 `;
 
-export const QUERY_MEALS = gql`
-query Meals {
-  meals {
-    _id
-    name
-    vegetarian
-    servings
-  }
-}
-`;
 
 
 export const QUERY_THOUGHTS = gql`
