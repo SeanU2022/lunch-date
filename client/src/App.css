@@ -39,11 +39,9 @@
 
 .background-purple {
   background-image: url('./assets/gingham_purple.png');
+
   background-size: cover;
-  background-repeat: repeat;
-  background-position: center center;
-  min-height: 100%;
-  height: 1200px
+  background-position: center;
 }
 
 .background-green {
@@ -94,10 +92,10 @@
 .background-orange {
   background-image: url('./assets/gingham_orange.png');
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center center;
   min-height: 100%;
-  height: 1200px
+  /* height: 2200px */
 }
 
 
@@ -245,4 +243,6 @@ h3 {
   margin-left: 40px;
 }
 
-#town-select {}
+/* #modal-width {
+  width: 1000px;
+} */
