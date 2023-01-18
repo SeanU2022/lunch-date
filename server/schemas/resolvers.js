@@ -1,6 +1,8 @@
 const { AuthenticationError } = require('apollo-server-express');
-const { User, Client, Meal, Menu, Thought } = require('../models');
+const { User, Client, Meal, Thought } = require('../models');
 const { signToken } = require('../utils/auth');
+const Menu = require('../models/Menu')
+const Order = require('../models/Order')
 
 const resolvers = {
   Query: {
@@ -22,6 +24,13 @@ const resolvers = {
     },
     clients: async () => {
       return Client.find().sort({ createdAt: -1 });
+    },
+
+    order: async (parent, { orderId }) => {
+      return Order.findOne({ _id: orderId });
+    },
+    orders: async () => {
+      return Order.find().sort({ createdAt: -1 });
     },
 
     meal: async (parent, { mealId }) => {
@@ -97,23 +106,6 @@ const resolvers = {
       }
       throw new AuthenticationError('You need to be logged in!');
     },
-    // updateClient: async (parent, { name, address, town }, context) => {
-    //   console.log(context.user)
-    //   if (context.user) {
-    //     const client = await Client.create({
-    //       name,
-    //       address,
-    //       town
-    //     });
-    //     console.log('add client')
-    //     console.log(name)
-    //     console.log(address)
-    //     console.log(town)
-    //     return client;
-    //   }
-    //   throw new AuthenticationError('You need to be logged in!');
-    // },
-    // tuesday
     updateClient: async (parent, { id, name, address, town }, context) => {
       // Find and update the matching class using the destructured args
       console.log(context.user)
@@ -130,6 +122,23 @@ const resolvers = {
       }
       throw new AuthenticationError('You need to be logged in!')
     },
+    addMenu: async (parent, { month, plannedDate }, context) => {
+      if (context.user) {
+        // Add 1 day to planned date as MongoDB local seems to store days on US time
+        // Check on Mongo Atlas as well
+        plannedDate = Date.parse(plannedDate)
+        const oneDayMilliseconds = 24 * 60 * 60 * 1000 
+        plannedDate = plannedDate + oneDayMilliseconds
+        const menu = await Menu.create({
+            month,
+            plannedDate
+          });
+
+        return menu;
+      }
+      throw new AuthenticationError('You need to be logged in!');
+    },
+
     addThought: async (parent, { thoughtText }, context) => {
       if (context.user) {
         const thought = await Thought.create({

@@ -2,39 +2,55 @@ const { Schema, model } = require('mongoose');
 const dateFormat = require('../utils/dateFormat');
 
 const orderSchema = new Schema({
-  description: {
+  month: {
     type: String,
-    required: 'You need to add the order description!',
-    minlength: 1,
-    maxlength: 60,
-    trim: true,
   },
-  schedulceDate: {
+  plannedDate: {
     type: Date,
   },
-  instructions: {
-    type: String,
+  plannedDayOfYearNumber: {
+    type: Number,
+  },
+  plannedWeekOfYearNumber: {
+    type: Number,
+  },
+  plannedDayOfMonthNumber: {
+    type: Number
+  },
+  plannedDayOfWeekNumber: {
+    type: Number
+  },
+  plannedDayOfWeek: {
+    type: String
   },
   quantity: {
-    type: Int
+    type: Number
   },
-  meals: [
-    {
-      type: Schema.Types.ObjectId,
-      ref: 'Meal',
-    },
-  ],
-  clients: [
-    {
-      type: Schema.Types.ObjectId,
-      ref: 'Client',
-    },
-  ],
+  orderText: {
+    type: String,
+    minlength: 0,
+    maxlength: 40,
+    trim: true,
+  },
   createdAt: {
     type: Date,
     default: Date.now,
     get: (timestamp) => dateFormat(timestamp),
   },
+  meals: [
+    {
+      mealText: {
+        type: String,
+        minlength: 0,
+        maxlength: 60,
+      },
+      createdAt: {
+        type: Date,
+        default: Date.now,
+        get: (timestamp) => dateFormat(timestamp),
+      },
+    },
+  ],
 });
 
 const Order = model('Order', orderSchema);

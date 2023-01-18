@@ -1,5 +1,7 @@
 const jwt = require('jsonwebtoken');
 
+
+// Protect sensitive API key information on the server.
 const secret = 'mysecretssshhhhhhh';
 const expiration = '2h';
 
