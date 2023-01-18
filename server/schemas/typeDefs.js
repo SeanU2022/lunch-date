@@ -19,7 +19,20 @@ const typeDefs = gql`
   type Meal {
     _id: ID
     name: String
-    type: String
+    vegetarian: Boolean
+    servings: Int
+  }
+
+  type MealSum {
+    _id: ID
+    sumOfMeals: Int
+  }
+
+  type Menu {
+    _id: ID
+    month: String!
+    date: String!
+    meal: [Meal]
   }
 
   type Thought {
@@ -50,7 +63,10 @@ const typeDefs = gql`
     clients: [Client]    
     meal(mealId: ID!): Meal
     meals: [Meal]
+    # mealsum: Int
     # meal(mealId: ID!): Meal
+    menu(menuID: ID!): Menu
+    menus: [Menu]
     
     thoughts(username: String): [Thought]
     thought(thoughtId: ID!): Thought

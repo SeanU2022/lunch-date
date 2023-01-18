@@ -1,16 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useQuery, useLazyQuery, useMutation } from '@apollo/client';
+import { useQuery, useMutation } from '@apollo/client';
 
 // import { ADD_THOUGHT} from '../utils/mutations';
 // import { QUERY_THOUGHTS, QUERY_ME } from '../utils/queries';
 
-import { ADD_CLIENT } from '../utils/mutations';
-import { QUERY_CLIENT } from '../utils/queries';
-
-// MEALS
-// import MealList from '../components/MealList'
-// import { QUERY_MEALS} from '../utils/queries'
+import { QUERY_MEALS } from '../utils/queries';
 
 import Auth from '../utils/auth';
 
@@ -28,9 +23,9 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 // import clientSeeds from '../../../src/server/seeders/clientSeedsReact';
 import clientSeeds from '../seeders/clientSeedsReact'
 
-const ClientListForm = () => {
+const MealListForm = () => {
 
-    const [rows, setRows] = useState(clientSeeds)
+    const [rows, setRows] = useState(mealSeeds)
 
     const Row = (props) => {
         const {name, address, town} = props
@@ -195,26 +190,10 @@ const ClientListForm = () => {
     //   }
     // };
 
-    // MEALS
-    // const { data: mealsData } = useQuery(QUERY_MEALS);
-    // const meals = mealsData?.meals || [];
-
-
     return (
         <div>
             {Auth.loggedIn() ? (
                 <>
-{/* // MEALS */}
-                    {/* <div className="col-12 col-md-10 mb-5">
-                        <MealList
-                        <div>Z
-                        meals.map(meal => <Row> meal.name</Row>)
-                        </div>
-                            
-                        />
-                    </div> */}
-
-
                     <div>
                         <div>Table: Clients</div>
                         <Table data = {rows} />
@@ -368,4 +347,4 @@ const ClientListForm = () => {
     );
 };
 
-export default ClientListForm;
+export default MealListForm;

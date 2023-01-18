@@ -1,5 +1,5 @@
 const { AuthenticationError } = require('apollo-server-express');
-const { User, Client, Meal, Thought } = require('../models');
+const { User, Client, Meal, Menu, Thought } = require('../models');
 const { signToken } = require('../utils/auth');
 
 const resolvers = {
@@ -30,6 +30,18 @@ const resolvers = {
     meals: async () => {
       return Meal.find().sort({ createdAt: -1 });
     },
+    
+    menu: async (parent, { menuId }) => {
+      return Menu.findOne({ _id: menuId });
+    },
+    menus: async () => {
+      return Menu.find().sort({ createdAt: -1 });
+    },
+
+    // mealsum: async () => {
+    //   return (await Meal.find().aggregate())
+    // },
+
 
     // meal: async (parent, { mealId }) => {
     //   return Meal.findOne({ _id: clientId });
