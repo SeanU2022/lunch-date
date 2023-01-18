@@ -14,8 +14,11 @@ const mealSchema = new Schema({
     default: Date.now,
     get: (timestamp) => dateFormat(timestamp),
   },
-  type: {
-    type: String,
+  vegetarian: {
+    type: Boolean,
+  },
+  servings: {
+    type: Number,
   },
 });
 

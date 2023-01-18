@@ -53,6 +53,17 @@ export const QUERY_CLIENTS = gql`
   }
 `;
 
+export const QUERY_MEALS = gql`
+query Meals {
+  meals {
+    _id
+    name
+    vegetarian
+    servings
+  }
+}
+`;
+
 
 export const QUERY_THOUGHTS = gql`
   query getThoughts {
