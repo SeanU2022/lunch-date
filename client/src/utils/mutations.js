@@ -47,6 +47,17 @@ export const ADD_CLIENT = gql`
   }
 `;
 
+export const UPDATE_CLIENT = gql`
+  mutation UpdateClient($updateClientId: ID!, $name: String!, $address: String!, $town: String!) {
+    updateClient(id: $updateClientId, name: $name, address: $address, town: $town) {
+      address
+      name
+      town
+      _id
+    }
+  }
+`;
+
 // OLD CODE
 
 export const ADD_THOUGHT = gql`
@@ -76,17 +87,6 @@ export const ADD_COMMENT = gql`
         commentText
         createdAt
       }
-    }
-  }
-`;
-
-export const UPDATE_CLIENT = gql`
-  mutation UpdateClient($updateClientId: ID!, $name: String!, $address: String!, $town: String!) {
-    updateClient(id: $updateClientId, name: $name, address: $address, town: $town) {
-      address
-      name
-      town
-      _id
     }
   }
 `;

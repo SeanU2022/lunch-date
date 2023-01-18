@@ -16,13 +16,6 @@ const typeDefs = gql`
     town: String
   }
 
-  type Meal {
-    _id: ID
-    name: String
-    vegetarian: Boolean
-    servings: Int
-  }
-
   type MealSum {
     _id: ID
     sumOfMeals: Int
@@ -31,8 +24,30 @@ const typeDefs = gql`
   type Menu {
     _id: ID
     month: String!
-    date: String!
+    plannedDate: String
     meal: [Meal]
+  }
+
+  type Order {
+    _id: ID
+    month: String
+    plannedDate: String
+    plannedDayOfYearNumber: Int
+    plannedWeekOfYearNumber: Int
+    plannedDayOfMonthNumber: Int
+    plannedDayOfWeekNumber: Int
+    plannedDayOfWeek: String
+    quantity: Int
+    orderText: String
+    createdAt: String
+    meals: [Meal]!
+  }
+
+  type Meal {
+    _id: ID
+    name: String
+    vegetarian: Boolean
+    servings: Int
   }
 
   type Thought {
@@ -60,7 +75,11 @@ const typeDefs = gql`
     me: User
     user(username: String!): User
     client(clientId: ID!): Client
-    clients: [Client]    
+    clients: [Client]
+
+    orders: [Order]
+    order(orderID: ID!): [Order]
+
     meal(mealId: ID!): Meal
     meals: [Meal]
     # mealsum: Int
@@ -77,6 +96,8 @@ const typeDefs = gql`
     login(email: String!, password: String!): Auth
     addClient(name: String!, address: String!, town: String!): Client
     updateClient(id: ID!, name: String!, address: String!, town: String!): Client
+    addMenu(month: String!, plannedDate: String): Menu
+    # addMenu(month: String!): Menu
 
 
     # addMeal(name: String!, type: String!): Meal  FUTURE

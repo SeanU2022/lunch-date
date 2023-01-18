@@ -10,6 +10,9 @@ const menuSchema = new Schema({
     default: Date.now,
     get: (timestamp) => dateFormat(timestamp),
   },
+  plannedDayOfYearNumber: {
+    type: Number,
+  },
   meal:
   {
     type: Schema.Types.ObjectId,
