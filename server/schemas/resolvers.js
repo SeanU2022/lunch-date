@@ -1,8 +1,6 @@
 const { AuthenticationError } = require('apollo-server-express');
 const { User, Client, Meal, Thought } = require('../models');
 const { signToken } = require('../utils/auth');
-const Menu = require('../models/Menu')
-const Order = require('../models/Order')
 
 const resolvers = {
   Query: {
@@ -19,38 +17,17 @@ const resolvers = {
       throw new AuthenticationError('You need to be logged in!');
     },
 
-    client: async (parent, { clientId }) => {
-      return Client.findOne({ _id: clientId });
-    },
     clients: async () => {
       return Client.find().sort({ createdAt: -1 });
     },
-
-    order: async (parent, { orderId }) => {
-      return Order.findOne({ _id: orderId });
-    },
-    orders: async () => {
-      return Order.find().sort({ createdAt: -1 });
+    client: async (parent, { clientId }) => {
+      return Client.findOne({ _id: clientId });
     },
 
-    meal: async (parent, { mealId }) => {
-      return Meal.findOne({ _id: mealId });
-    },
+
     meals: async () => {
       return Meal.find().sort({ createdAt: -1 });
     },
-    
-    menu: async (parent, { menuId }) => {
-      return Menu.findOne({ _id: menuId });
-    },
-    menus: async () => {
-      return Menu.find().sort({ createdAt: -1 });
-    },
-
-    // mealsum: async () => {
-    //   return (await Meal.find().aggregate())
-    // },
-
 
     // meal: async (parent, { mealId }) => {
     //   return Meal.findOne({ _id: clientId });
@@ -106,37 +83,39 @@ const resolvers = {
       }
       throw new AuthenticationError('You need to be logged in!');
     },
+    // updateClient: async (parent, { name, address, town }, context) => {
+    //   console.log(context.user)
+    //   if (context.user) {
+    //     const client = await Client.create({
+    //       name,
+    //       address,
+    //       town
+    //     });
+    //     console.log('add client')
+    //     console.log(name)
+    //     console.log(address)
+    //     console.log(town)
+    //     return client;
+    //   }
+    //   throw new AuthenticationError('You need to be logged in!');
+    // },
+    // tuesday
     updateClient: async (parent, { id, name, address, town }, context) => {
       // Find and update the matching class using the destructured args
       console.log(context.user)
       if (context.user) {
         const client = await Client.findOneAndUpdate(
-          { _id: id }, 
-          { name ,
-           address ,
-           town },
-          // Return the newly updated object instead of the original
+          { _id: id },
+          { name, address, town }, // Return the newly updated object instead of the original
           { new: true }
         );
         return client;
       }
       throw new AuthenticationError('You need to be logged in!')
     },
-    addMenu: async (parent, { month, plannedDate }, context) => {
-      if (context.user) {
-        // Add 1 day to planned date as MongoDB local seems to store days on US time
-        // Check on Mongo Atlas as well
-        plannedDate = Date.parse(plannedDate)
-        const oneDayMilliseconds = 24 * 60 * 60 * 1000 
-        plannedDate = plannedDate + oneDayMilliseconds
-        const menu = await Menu.create({
-            month,
-            plannedDate
-          });
 
-        return menu;
-      }
-      throw new AuthenticationError('You need to be logged in!');
+    removeClient: async (parent, { id }) => {
+      return Client.findOneAndDelete({ _id: id });
     },
 
     addThought: async (parent, { thoughtText }, context) => {

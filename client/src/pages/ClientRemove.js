@@ -10,24 +10,22 @@ import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import { QUERY_CLIENTS, QUERY_CLIENT } from '../utils/queries';
 import { useQuery, useLazyQuery, useMutation } from '@apollo/client';
-import { UPDATE_CLIENT } from '../utils/mutations';
-// import { REMOVE_CLIENT } from '../utils/mutations';
+// import { UPDATE_CLIENT } from '../utils/mutations';
+import { REMOVE_CLIENT } from '../utils/mutations';
 
-// var element = document.getElementById("delete");
-// element.addEventListener("click", function () {
-//     alert('hello')
-// });
 
-function ClientEdit() {
+
+function ClientRemove() {
     const { data: clientsData } = useQuery(QUERY_CLIENTS);
     const clients = clientsData?.clients || [];
 
     const [getSelectedClient, { data: clientData }] = useLazyQuery(QUERY_CLIENT);
     const selectedClient = clientData?.client;
+    console.log(selectedClient);
+    const [removeClient, { error }] = useMutation(REMOVE_CLIENT);
 
-    const [updateClient, { error }] = useMutation(UPDATE_CLIENT);
 
-
+    console.log("1234");
 
     const [state, setState] = useState({
         name: undefined,
@@ -40,17 +38,11 @@ function ClientEdit() {
         event.preventDefault();
 
         try {
-            const { data } = await updateClient({
+            const { data } = await removeClient({
                 variables: {
-                    updateClientId: selectedClient._id,
-                    name: state.name,
-                    address: state.address,
-                    town: state.town
-
-                },
+                    id: selectedClient._id,
+                }
             });
-
-
         } catch (err) {
             console.error(err);
         }
@@ -72,14 +64,8 @@ function ClientEdit() {
         })
     }
 
-    // const removeClient = async (event) => {
-    //     event.preventDefault();
 
-    //     try {
-    //         const 
-    //     }
-
-
+    console.log("5678")
 
 
     return (
@@ -94,7 +80,7 @@ function ClientEdit() {
                     <Modal.Body>
 
                         {/* <h1 id='logo'><FontAwesomeIcon icon={faSolidIcons.faUtensils} /></h1> */}
-                        <h2> edit client</h2>
+                        <h2> delete client</h2>
                     </Modal.Body>
                     <Dropdown id="dropdown">
                         <Dropdown.Toggle variant="dark" id="dropdown-basic">
@@ -121,11 +107,9 @@ function ClientEdit() {
 
                                 <Form.Control placeholder="address" value={state.address} onChange={(e) => setState({ ...state, address: e.target.value })} />
                             </Form.Group>
-                            {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
-                </Form.Group> */}
-                            <Button variant="secondary" type="submit">
-                                save
+
+                            <Button variant="danger" type="submit">
+                                delete
                             </Button>
 
                         </Form>
@@ -137,5 +121,5 @@ function ClientEdit() {
     )
 }
 
-export default ClientEdit;
+export default ClientRemove;
 

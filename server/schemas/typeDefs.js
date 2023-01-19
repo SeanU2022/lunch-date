@@ -97,6 +97,7 @@ const typeDefs = gql`
     addClient(name: String!, address: String!, town: String!): Client
     updateClient(id: ID!, name: String!, address: String!, town: String!): Client
     addMenu(month: String!, plannedDate: String): Menu
+    removeClient(id: ID!): Client
     # addMenu(month: String!): Menu
 
 

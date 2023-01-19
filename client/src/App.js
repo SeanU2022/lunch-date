@@ -27,7 +27,8 @@ import Batlow from './pages/Batlow';
 import Adelong from './pages/Adelong';
 import ClientEdit from './pages/ClientEdit';
 import Order from './pages/Order';
-// import CreateMenu from './pages/CreateMenu';
+import CreateMenu from './pages/CreateMenu';
+import ClientRemove from './pages/ClientRemove';
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
@@ -83,13 +84,11 @@ function App() {
               />
               <Route
                 path="/addClient"
-                // element={<ClientAdd />}
                 element={<ClientAddForm />}
               />
               <Route
-                path="/listclients"
-                // element={<ClientAdd />}
-                element={<ClientListForm />}
+                path="/clientremove"
+                element={<ClientRemove />}
               />
               <Route
                 path="/editclient"
@@ -123,10 +122,10 @@ function App() {
                 path="/clientorder"
                 element={<Order />}
               />
-              {/* <Route
+              <Route
                 path="/editmenu"
                 element={<CreateMenu />}
-              /> */}
+              />
             </Routes>
           </div>
           {/* <Footer /> */}

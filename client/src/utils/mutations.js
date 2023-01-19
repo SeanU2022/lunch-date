@@ -58,6 +58,13 @@ export const UPDATE_CLIENT = gql`
   }
 `;
 
+export const REMOVE_CLIENT = gql`
+  mutation RemoveClient($removeClientId: ID!) {
+    removeClient(id: $removeClientId) {
+      _id
+    }
+  }
+`;
 // OLD CODE
 
 export const ADD_THOUGHT = gql`
