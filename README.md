@@ -29,21 +29,9 @@ THEN I can check the historical data to verify
 WHEN I select a date in the future
 THEN I can see a total of the number of meals required for that day so I can shop accordingly
 
+## Screenshot of deployed application:
 
-## System Architecture and Flow
-
-- Add image for concept
-
-## Mock-up
-
-The following video shows an example of the functionality of the application:
- - Add link to video
-
-
- - Homepage - Login/Signup Screen
-
- - Landing page - presented with menu
-
+![lunchDate-screenshot](./client/src/assets/lunchDate_screenshot.png)
 
 ## Installation Requirements
 1. package.json devDependencies: run npm install
@@ -71,31 +59,20 @@ mongodb+srv://sean-admin:password@cluster0.a2oshzw.mongodb.net/**_lunch-date_**?
 
 
 ## Future Developments
- - Add an admin user to view ALL orders
- - An electronic payment gateway can be intergrated into applciation, allowing the user to make an online payment ahead; instead of paying cash on collection of their order.
- - The menu to offer more modifications to the driks - such as amount of sugars, type of drink, drink temperature etc. 
- - Allowing the user to save their last order/ favourite drink for subsequent orders when they login into the application
+- The ability for clients to log in and place their own monthly orders
+- The ability to create a new user from the login screen
+- The ability to generate a delivery sheet for the driver delivering meals to clients
+
 
 
 ## Technologies Used
 
-### Front-end
- - JavaScript
- - REACT (html/css/js)
- - Bootstrap
-
-### Back-end
- - bCrypt
- - dotenv
- - Express
- - Express-handlebars
- - mySQL2
- - eslint
- - Sequelize
+LunchDate is a MERN stack single page application. It uses React for the front end. It uses GraphQL with a Node.js and Express.js server and MongoDB and Mongoose ODM for its database.
 
 ## Authors
  - Trentan Jurkans: https://github.com/TRN10
  - Sean Wallace: https://github.com/SeanU2022
+
 ## Available Scripts
 
 In the project directory, you can run:
