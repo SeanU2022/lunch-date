@@ -51,6 +51,7 @@ function Order() {
                         // <div key={meal._id}>
                         <div>
 
+
                             {/* <label> Meal: */}
                             {/* <input type="text" value={`meal-${meal._id}-name`} readonly /> */}
                             {/* {meal.name} */}
@@ -63,12 +64,18 @@ function Order() {
                                     aria-describedby="basic-addon1"
                                 />
                             </InputGroup>
+
+
+
+
                         </div>
 
+
+
                     )}
-                    {/* <Button variant="secondary" type="submit">
+                    <Button variant="secondary" type="submit">
                         submit order
-                    </Button> */}
+                    </Button>
                 </Modal.Dialog>
             </div>
         </div>

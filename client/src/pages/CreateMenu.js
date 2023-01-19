@@ -33,237 +33,160 @@ function CreateMenu() {
 
                     <Form>
                         <InputGroup className="mb-3">
-                            <InputGroup.Text id="basic-addon1">01 Jan</InputGroup.Text>
+                            <InputGroup.Text id="basic-addon1">01 Feb</InputGroup.Text>
                             <Form.Control
                                 placeholder="meal"
                                 aria-label="meal"
                                 aria-describedby="basic-addon1"
                             />
                         </InputGroup>
-
-                        <Row>
-
-
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
-                        <Row>
-
-                            <Col>
-                                <Form.Control placeholder="date" />
-                            </Col>
-                            <Col xs={8}>
-                                <Form.Control placeholder="meal" />
-                            </Col>
-                        </Row>
+                        <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">02 Feb</InputGroup.Text>
+                            <Form.Control
+                                placeholder="meal"
+                                aria-label="meal"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>
+                        <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">03 Feb</InputGroup.Text>
+                            <Form.Control
+                                placeholder="meal"
+                                aria-label="meal"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>
+                        <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">06 Feb</InputGroup.Text>
+                            <Form.Control
+                                placeholder="meal"
+                                aria-label="meal"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>
+                        <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">07 Feb</InputGroup.Text>
+                            <Form.Control
+                                placeholder="meal"
+                                aria-label="meal"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>
+                        <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">08 Feb</InputGroup.Text>
+                            <Form.Control
+                                placeholder="meal"
+                                aria-label="meal"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>         <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">09 Feb</InputGroup.Text>
+                            <Form.Control
+                                placeholder="meal"
+                                aria-label="meal"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>         <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">10 Feb</InputGroup.Text>
+                            <Form.Control
+                                placeholder="meal"
+                                aria-label="meal"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>         <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">13 Feb</InputGroup.Text>
+                            <Form.Control
+                                placeholder="meal"
+                                aria-label="meal"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>         <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">14 Feb</InputGroup.Text>
+                            <Form.Control
+                                placeholder="meal"
+                                aria-label="meal"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>
+                        <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">15 Feb</InputGroup.Text>
+                            <Form.Control
+                                placeholder="meal"
+                                aria-label="meal"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>
+                        <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">16 Feb</InputGroup.Text>
+                            <Form.Control
+                                placeholder="meal"
+                                aria-label="meal"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>
+                        <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">17 Feb</InputGroup.Text>
+                            <Form.Control
+                                placeholder="meal"
+                                aria-label="meal"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>
+                        <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">20 Feb</InputGroup.Text>
+                            <Form.Control
+                                placeholder="meal"
+                                aria-label="meal"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>
+                        <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">21 Feb</InputGroup.Text>
+                            <Form.Control
+                                placeholder="meal"
+                                aria-label="meal"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>
+                        <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">22 Feb</InputGroup.Text>
+                            <Form.Control
+                                placeholder="meal"
+                                aria-label="meal"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>         <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">23 Feb</InputGroup.Text>
+                            <Form.Control
+                                placeholder="meal"
+                                aria-label="meal"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>
+                        <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">24 Feb</InputGroup.Text>
+                            <Form.Control
+                                placeholder="meal"
+                                aria-label="meal"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>
+                        <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">27 Feb</InputGroup.Text>
+                            <Form.Control
+                                placeholder="meal"
+                                aria-label="meal"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>
+                        <InputGroup className="mb-3">
+                            <InputGroup.Text id="basic-addon1">28 Feb</InputGroup.Text>
+                            <Form.Control
+                                placeholder="meal"
+                                aria-label="meal"
+                                aria-describedby="basic-addon1"
+                            />
+                        </InputGroup>
 
 
                         <Button variant="secondary" type="submit">
@@ -273,7 +196,7 @@ function CreateMenu() {
                     </Form>
                 </Modal.Dialog>
             </div>
-        </div>
+        </div >
     )
 }
 
