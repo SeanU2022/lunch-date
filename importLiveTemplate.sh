@@ -10,3 +10,5 @@ mongoimport --uri mongodb+srv://sean-admin:<<password goes here>>@cluster0.a2osh
 # mongoimport --uri mongodb+srv://sean-admin:<<password goes here>>@cluster0.a2oshzw.mongodb.net/lunch-date --collection meals --jsonArray --type json --file ./server/seeders/mealSeeds.json
 # SCRIPT note ./ left out:
 mongoimport --uri mongodb+srv://sean-admin:<<password goes here>>@cluster0.a2oshzw.mongodb.net/lunch-date --collection meals --jsonArray --type json --file server/seeders/mealSeeds.json
+# ORDERS
+mongoimport --uri mongodb+srv://sean-admin:<<password goes here>>@cluster0.a2oshzw.mongodb.net/lunch-date --collection orders --jsonArray --type json --file server/seeders/orderSeeds.json
