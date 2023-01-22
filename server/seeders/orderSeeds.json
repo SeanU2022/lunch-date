@@ -1,0 +1,4761 @@
+[{
+  "month": "February",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1675256400000"
+    }
+  },
+  "plannedDayOfYearNumber": 33,
+  "plannedWeekOfYearNumber": 5,
+  "plannedDayOfMonthNumber": 2,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216837"
+    }
+  }
+},{
+  "month": "February",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1675342800000"
+    }
+  },
+  "plannedDayOfYearNumber": 34,
+  "plannedWeekOfYearNumber": 5,
+  "plannedDayOfMonthNumber": 3,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216837"
+    }
+  }
+},{
+  "month": "February",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1675170000000"
+    }
+  },
+  "plannedDayOfYearNumber": 32,
+  "plannedWeekOfYearNumber": 5,
+  "plannedDayOfMonthNumber": 1,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216836"
+    }
+  }
+},{
+  "month": "February",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1675602000000"
+    }
+  },
+  "plannedDayOfYearNumber": 37,
+  "plannedWeekOfYearNumber": 6,
+  "plannedDayOfMonthNumber": 6,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216837"
+    }
+  }
+},{
+  "month": "February",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1675688400000"
+    }
+  },
+  "plannedDayOfYearNumber": 38,
+  "plannedWeekOfYearNumber": 6,
+  "plannedDayOfMonthNumber": 7,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216837"
+    }
+  }
+},{
+  "month": "February",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1675774800000"
+    }
+  },
+  "plannedDayOfYearNumber": 39,
+  "plannedWeekOfYearNumber": 6,
+  "plannedDayOfMonthNumber": 8,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216837"
+    }
+  }
+},{
+  "month": "February",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1675861200000"
+    }
+  },
+  "plannedDayOfYearNumber": 40,
+  "plannedWeekOfYearNumber": 6,
+  "plannedDayOfMonthNumber": 9,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216837"
+    }
+  }
+},{
+  "month": "February",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1675947600000"
+    }
+  },
+  "plannedDayOfYearNumber": 41,
+  "plannedWeekOfYearNumber": 6,
+  "plannedDayOfMonthNumber": 10,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216838"
+    }
+  }
+},{
+  "month": "February",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1676206800000"
+    }
+  },
+  "plannedDayOfYearNumber": 44,
+  "plannedWeekOfYearNumber": 7,
+  "plannedDayOfMonthNumber": 13,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216838"
+    }
+  }
+},{
+  "month": "February",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1676379600000"
+    }
+  },
+  "plannedDayOfYearNumber": 46,
+  "plannedWeekOfYearNumber": 7,
+  "plannedDayOfMonthNumber": 15,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216838"
+    }
+  }
+},{
+  "month": "February",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1676552400000"
+    }
+  },
+  "plannedDayOfYearNumber": 48,
+  "plannedWeekOfYearNumber": 7,
+  "plannedDayOfMonthNumber": 17,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216838"
+    }
+  }
+},{
+  "month": "February",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1676293200000"
+    }
+  },
+  "plannedDayOfYearNumber": 45,
+  "plannedWeekOfYearNumber": 7,
+  "plannedDayOfMonthNumber": 14,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216838"
+    }
+  }
+},{
+  "month": "February",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1676811600000"
+    }
+  },
+  "plannedDayOfYearNumber": 51,
+  "plannedWeekOfYearNumber": 8,
+  "plannedDayOfMonthNumber": 20,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216838"
+    }
+  }
+},{
+  "month": "February",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1676984400000"
+    }
+  },
+  "plannedDayOfYearNumber": 53,
+  "plannedWeekOfYearNumber": 8,
+  "plannedDayOfMonthNumber": 22,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216838"
+    }
+  }
+},{
+  "month": "February",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1677502800000"
+    }
+  },
+  "plannedDayOfYearNumber": 59,
+  "plannedWeekOfYearNumber": 9,
+  "plannedDayOfMonthNumber": 28,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216839"
+    }
+  }
+},{
+  "month": "February",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1677157200000"
+    }
+  },
+  "plannedDayOfYearNumber": 55,
+  "plannedWeekOfYearNumber": 8,
+  "plannedDayOfMonthNumber": 24,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216838"
+    }
+  }
+},{
+  "month": "February",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1677070800000"
+    }
+  },
+  "plannedDayOfYearNumber": 54,
+  "plannedWeekOfYearNumber": 8,
+  "plannedDayOfMonthNumber": 23,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216838"
+    }
+  }
+},{
+  "month": "February",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1676898000000"
+    }
+  },
+  "plannedDayOfYearNumber": 52,
+  "plannedWeekOfYearNumber": 8,
+  "plannedDayOfMonthNumber": 21,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216838"
+    }
+  }
+},{
+  "month": "February",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1676466000000"
+    }
+  },
+  "plannedDayOfYearNumber": 47,
+  "plannedWeekOfYearNumber": 7,
+  "plannedDayOfMonthNumber": 16,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216838"
+    }
+  }
+},{
+  "month": "February",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1677416400000"
+    }
+  },
+  "plannedDayOfYearNumber": 58,
+  "plannedWeekOfYearNumber": 9,
+  "plannedDayOfMonthNumber": 27,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216839"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1677762000000"
+    }
+  },
+  "plannedDayOfYearNumber": 62,
+  "plannedWeekOfYearNumber": 9,
+  "plannedDayOfMonthNumber": 3,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216839"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1678021200000"
+    }
+  },
+  "plannedDayOfYearNumber": 65,
+  "plannedWeekOfYearNumber": 10,
+  "plannedDayOfMonthNumber": 6,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216839"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1678107600000"
+    }
+  },
+  "plannedDayOfYearNumber": 66,
+  "plannedWeekOfYearNumber": 10,
+  "plannedDayOfMonthNumber": 7,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216839"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1678194000000"
+    }
+  },
+  "plannedDayOfYearNumber": 67,
+  "plannedWeekOfYearNumber": 10,
+  "plannedDayOfMonthNumber": 8,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216839"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1678280400000"
+    }
+  },
+  "plannedDayOfYearNumber": 68,
+  "plannedWeekOfYearNumber": 10,
+  "plannedDayOfMonthNumber": 9,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216839"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1678366800000"
+    }
+  },
+  "plannedDayOfYearNumber": 69,
+  "plannedWeekOfYearNumber": 10,
+  "plannedDayOfMonthNumber": 10,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216839"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1678626000000"
+    }
+  },
+  "plannedDayOfYearNumber": 72,
+  "plannedWeekOfYearNumber": 11,
+  "plannedDayOfMonthNumber": 13,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216839"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1678712400000"
+    }
+  },
+  "plannedDayOfYearNumber": 73,
+  "plannedWeekOfYearNumber": 11,
+  "plannedDayOfMonthNumber": 14,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216840"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1678798800000"
+    }
+  },
+  "plannedDayOfYearNumber": 74,
+  "plannedWeekOfYearNumber": 11,
+  "plannedDayOfMonthNumber": 15,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216840"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1678885200000"
+    }
+  },
+  "plannedDayOfYearNumber": 75,
+  "plannedWeekOfYearNumber": 11,
+  "plannedDayOfMonthNumber": 16,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216840"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1678971600000"
+    }
+  },
+  "plannedDayOfYearNumber": 76,
+  "plannedWeekOfYearNumber": 11,
+  "plannedDayOfMonthNumber": 17,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216840"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1679230800000"
+    }
+  },
+  "plannedDayOfYearNumber": 79,
+  "plannedWeekOfYearNumber": 12,
+  "plannedDayOfMonthNumber": 20,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216840"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1679317200000"
+    }
+  },
+  "plannedDayOfYearNumber": 80,
+  "plannedWeekOfYearNumber": 12,
+  "plannedDayOfMonthNumber": 21,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216840"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1679403600000"
+    }
+  },
+  "plannedDayOfYearNumber": 81,
+  "plannedWeekOfYearNumber": 12,
+  "plannedDayOfMonthNumber": 22,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216840"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1679490000000"
+    }
+  },
+  "plannedDayOfYearNumber": 82,
+  "plannedWeekOfYearNumber": 12,
+  "plannedDayOfMonthNumber": 23,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216840"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1679576400000"
+    }
+  },
+  "plannedDayOfYearNumber": 83,
+  "plannedWeekOfYearNumber": 12,
+  "plannedDayOfMonthNumber": 24,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216840"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1679835600000"
+    }
+  },
+  "plannedDayOfYearNumber": 86,
+  "plannedWeekOfYearNumber": 13,
+  "plannedDayOfMonthNumber": 27,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216840"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1679922000000"
+    }
+  },
+  "plannedDayOfYearNumber": 87,
+  "plannedWeekOfYearNumber": 13,
+  "plannedDayOfMonthNumber": 28,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216841"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1680008400000"
+    }
+  },
+  "plannedDayOfYearNumber": 88,
+  "plannedWeekOfYearNumber": 13,
+  "plannedDayOfMonthNumber": 29,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216841"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1680094800000"
+    }
+  },
+  "plannedDayOfYearNumber": 89,
+  "plannedWeekOfYearNumber": 13,
+  "plannedDayOfMonthNumber": 30,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216841"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1680181200000"
+    }
+  },
+  "plannedDayOfYearNumber": 90,
+  "plannedWeekOfYearNumber": 13,
+  "plannedDayOfMonthNumber": 31,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216841"
+    }
+  }
+},{
+  "month": "April",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1680444000000"
+    }
+  },
+  "plannedDayOfYearNumber": 93,
+  "plannedWeekOfYearNumber": 14,
+  "plannedDayOfMonthNumber": 3,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216841"
+    }
+  }
+},{
+  "month": "April",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1680530400000"
+    }
+  },
+  "plannedDayOfYearNumber": 94,
+  "plannedWeekOfYearNumber": 14,
+  "plannedDayOfMonthNumber": 4,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216841"
+    }
+  }
+},{
+  "month": "April",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1680616800000"
+    }
+  },
+  "plannedDayOfYearNumber": 95,
+  "plannedWeekOfYearNumber": 14,
+  "plannedDayOfMonthNumber": 5,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216841"
+    }
+  }
+},{
+  "month": "April",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1680703200000"
+    }
+  },
+  "plannedDayOfYearNumber": 96,
+  "plannedWeekOfYearNumber": 14,
+  "plannedDayOfMonthNumber": 6,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216841"
+    }
+  }
+},{
+  "month": "April",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1680789600000"
+    }
+  },
+  "plannedDayOfYearNumber": 97,
+  "plannedWeekOfYearNumber": 14,
+  "plannedDayOfMonthNumber": 7,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216841"
+    }
+  }
+},{
+  "month": "April",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1681048800000"
+    }
+  },
+  "plannedDayOfYearNumber": 100,
+  "plannedWeekOfYearNumber": 15,
+  "plannedDayOfMonthNumber": 10,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216842"
+    }
+  }
+},{
+  "month": "April",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1681135200000"
+    }
+  },
+  "plannedDayOfYearNumber": 101,
+  "plannedWeekOfYearNumber": 15,
+  "plannedDayOfMonthNumber": 11,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216842"
+    }
+  }
+},{
+  "month": "April",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1681221600000"
+    }
+  },
+  "plannedDayOfYearNumber": 102,
+  "plannedWeekOfYearNumber": 15,
+  "plannedDayOfMonthNumber": 12,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216842"
+    }
+  }
+},{
+  "month": "April",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1681308000000"
+    }
+  },
+  "plannedDayOfYearNumber": 103,
+  "plannedWeekOfYearNumber": 15,
+  "plannedDayOfMonthNumber": 13,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216842"
+    }
+  }
+},{
+  "month": "April",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1681394400000"
+    }
+  },
+  "plannedDayOfYearNumber": 104,
+  "plannedWeekOfYearNumber": 15,
+  "plannedDayOfMonthNumber": 14,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216842"
+    }
+  }
+},{
+  "month": "April",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1681653600000"
+    }
+  },
+  "plannedDayOfYearNumber": 107,
+  "plannedWeekOfYearNumber": 16,
+  "plannedDayOfMonthNumber": 17,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216842"
+    }
+  }
+},{
+  "month": "April",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1681740000000"
+    }
+  },
+  "plannedDayOfYearNumber": 108,
+  "plannedWeekOfYearNumber": 16,
+  "plannedDayOfMonthNumber": 18,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216842"
+    }
+  }
+},{
+  "month": "April",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1681826400000"
+    }
+  },
+  "plannedDayOfYearNumber": 109,
+  "plannedWeekOfYearNumber": 16,
+  "plannedDayOfMonthNumber": 19,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216842"
+    }
+  }
+},{
+  "month": "April",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1681912800000"
+    }
+  },
+  "plannedDayOfYearNumber": 110,
+  "plannedWeekOfYearNumber": 16,
+  "plannedDayOfMonthNumber": 20,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216842"
+    }
+  }
+},{
+  "month": "April",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1681999200000"
+    }
+  },
+  "plannedDayOfYearNumber": 111,
+  "plannedWeekOfYearNumber": 16,
+  "plannedDayOfMonthNumber": 21,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216842"
+    }
+  }
+},{
+  "month": "April",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1682258400000"
+    }
+  },
+  "plannedDayOfYearNumber": 114,
+  "plannedWeekOfYearNumber": 17,
+  "plannedDayOfMonthNumber": 24,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216843"
+    }
+  }
+},{
+  "month": "April",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1682344800000"
+    }
+  },
+  "plannedDayOfYearNumber": 115,
+  "plannedWeekOfYearNumber": 17,
+  "plannedDayOfMonthNumber": 25,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216843"
+    }
+  }
+},{
+  "month": "April",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1682431200000"
+    }
+  },
+  "plannedDayOfYearNumber": 116,
+  "plannedWeekOfYearNumber": 17,
+  "plannedDayOfMonthNumber": 26,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216843"
+    }
+  }
+},{
+  "month": "April",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1682517600000"
+    }
+  },
+  "plannedDayOfYearNumber": 117,
+  "plannedWeekOfYearNumber": 17,
+  "plannedDayOfMonthNumber": 27,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216843"
+    }
+  }
+},{
+  "month": "April",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1682604000000"
+    }
+  },
+  "plannedDayOfYearNumber": 118,
+  "plannedWeekOfYearNumber": 17,
+  "plannedDayOfMonthNumber": 28,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216843"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1682863200000"
+    }
+  },
+  "plannedDayOfYearNumber": 121,
+  "plannedWeekOfYearNumber": 18,
+  "plannedDayOfMonthNumber": 1,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216843"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1682949600000"
+    }
+  },
+  "plannedDayOfYearNumber": 122,
+  "plannedWeekOfYearNumber": 18,
+  "plannedDayOfMonthNumber": 2,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216843"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1683036000000"
+    }
+  },
+  "plannedDayOfYearNumber": 123,
+  "plannedWeekOfYearNumber": 18,
+  "plannedDayOfMonthNumber": 3,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216843"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1683122400000"
+    }
+  },
+  "plannedDayOfYearNumber": 124,
+  "plannedWeekOfYearNumber": 18,
+  "plannedDayOfMonthNumber": 4,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216843"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1683208800000"
+    }
+  },
+  "plannedDayOfYearNumber": 125,
+  "plannedWeekOfYearNumber": 18,
+  "plannedDayOfMonthNumber": 5,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216844"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1683554400000"
+    }
+  },
+  "plannedDayOfYearNumber": 129,
+  "plannedWeekOfYearNumber": 19,
+  "plannedDayOfMonthNumber": 9,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216844"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1683468000000"
+    }
+  },
+  "plannedDayOfYearNumber": 128,
+  "plannedWeekOfYearNumber": 19,
+  "plannedDayOfMonthNumber": 8,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216844"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1683640800000"
+    }
+  },
+  "plannedDayOfYearNumber": 130,
+  "plannedWeekOfYearNumber": 19,
+  "plannedDayOfMonthNumber": 10,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216844"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1683727200000"
+    }
+  },
+  "plannedDayOfYearNumber": 131,
+  "plannedWeekOfYearNumber": 19,
+  "plannedDayOfMonthNumber": 11,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216844"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1683813600000"
+    }
+  },
+  "plannedDayOfYearNumber": 132,
+  "plannedWeekOfYearNumber": 19,
+  "plannedDayOfMonthNumber": 12,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216844"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1684159200000"
+    }
+  },
+  "plannedDayOfYearNumber": 136,
+  "plannedWeekOfYearNumber": 20,
+  "plannedDayOfMonthNumber": 16,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216845"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1684072800000"
+    }
+  },
+  "plannedDayOfYearNumber": 135,
+  "plannedWeekOfYearNumber": 20,
+  "plannedDayOfMonthNumber": 15,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216844"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1684245600000"
+    }
+  },
+  "plannedDayOfYearNumber": 137,
+  "plannedWeekOfYearNumber": 20,
+  "plannedDayOfMonthNumber": 17,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216845"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1684332000000"
+    }
+  },
+  "plannedDayOfYearNumber": 138,
+  "plannedWeekOfYearNumber": 20,
+  "plannedDayOfMonthNumber": 18,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216845"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1677589200000"
+    }
+  },
+  "plannedDayOfYearNumber": 60,
+  "plannedWeekOfYearNumber": 9,
+  "plannedDayOfMonthNumber": 1,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216839"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1684677600000"
+    }
+  },
+  "plannedDayOfYearNumber": 142,
+  "plannedWeekOfYearNumber": 21,
+  "plannedDayOfMonthNumber": 22,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216845"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1684764000000"
+    }
+  },
+  "plannedDayOfYearNumber": 143,
+  "plannedWeekOfYearNumber": 21,
+  "plannedDayOfMonthNumber": 23,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216845"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1684850400000"
+    }
+  },
+  "plannedDayOfYearNumber": 144,
+  "plannedWeekOfYearNumber": 21,
+  "plannedDayOfMonthNumber": 24,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216845"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1684936800000"
+    }
+  },
+  "plannedDayOfYearNumber": 145,
+  "plannedWeekOfYearNumber": 21,
+  "plannedDayOfMonthNumber": 25,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216845"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1685282400000"
+    }
+  },
+  "plannedDayOfYearNumber": 149,
+  "plannedWeekOfYearNumber": 22,
+  "plannedDayOfMonthNumber": 29,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216845"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1685023200000"
+    }
+  },
+  "plannedDayOfYearNumber": 146,
+  "plannedWeekOfYearNumber": 21,
+  "plannedDayOfMonthNumber": 26,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216845"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1685455200000"
+    }
+  },
+  "plannedDayOfYearNumber": 151,
+  "plannedWeekOfYearNumber": 22,
+  "plannedDayOfMonthNumber": 31,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216846"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1685368800000"
+    }
+  },
+  "plannedDayOfYearNumber": 150,
+  "plannedWeekOfYearNumber": 22,
+  "plannedDayOfMonthNumber": 30,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216846"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1685541600000"
+    }
+  },
+  "plannedDayOfYearNumber": 152,
+  "plannedWeekOfYearNumber": 22,
+  "plannedDayOfMonthNumber": 1,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216846"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1685628000000"
+    }
+  },
+  "plannedDayOfYearNumber": 153,
+  "plannedWeekOfYearNumber": 22,
+  "plannedDayOfMonthNumber": 2,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216846"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1685887200000"
+    }
+  },
+  "plannedDayOfYearNumber": 156,
+  "plannedWeekOfYearNumber": 23,
+  "plannedDayOfMonthNumber": 5,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216846"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1685973600000"
+    }
+  },
+  "plannedDayOfYearNumber": 157,
+  "plannedWeekOfYearNumber": 23,
+  "plannedDayOfMonthNumber": 6,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216846"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1686060000000"
+    }
+  },
+  "plannedDayOfYearNumber": 158,
+  "plannedWeekOfYearNumber": 23,
+  "plannedDayOfMonthNumber": 7,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216846"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1686146400000"
+    }
+  },
+  "plannedDayOfYearNumber": 159,
+  "plannedWeekOfYearNumber": 23,
+  "plannedDayOfMonthNumber": 8,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216846"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1686232800000"
+    }
+  },
+  "plannedDayOfYearNumber": 160,
+  "plannedWeekOfYearNumber": 23,
+  "plannedDayOfMonthNumber": 9,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216846"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1686578400000"
+    }
+  },
+  "plannedDayOfYearNumber": 164,
+  "plannedWeekOfYearNumber": 24,
+  "plannedDayOfMonthNumber": 13,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216846"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1686492000000"
+    }
+  },
+  "plannedDayOfYearNumber": 163,
+  "plannedWeekOfYearNumber": 24,
+  "plannedDayOfMonthNumber": 12,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216846"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1686664800000"
+    }
+  },
+  "plannedDayOfYearNumber": 165,
+  "plannedWeekOfYearNumber": 24,
+  "plannedDayOfMonthNumber": 14,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216848"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1686751200000"
+    }
+  },
+  "plannedDayOfYearNumber": 166,
+  "plannedWeekOfYearNumber": 24,
+  "plannedDayOfMonthNumber": 15,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216848"
+    }
+  }
+},{
+  "month": "March",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1677675600000"
+    }
+  },
+  "plannedDayOfYearNumber": 61,
+  "plannedWeekOfYearNumber": 9,
+  "plannedDayOfMonthNumber": 2,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216839"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1687096800000"
+    }
+  },
+  "plannedDayOfYearNumber": 170,
+  "plannedWeekOfYearNumber": 25,
+  "plannedDayOfMonthNumber": 19,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216848"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1687183200000"
+    }
+  },
+  "plannedDayOfYearNumber": 171,
+  "plannedWeekOfYearNumber": 25,
+  "plannedDayOfMonthNumber": 20,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216849"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1687269600000"
+    }
+  },
+  "plannedDayOfYearNumber": 172,
+  "plannedWeekOfYearNumber": 25,
+  "plannedDayOfMonthNumber": 21,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216849"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1687356000000"
+    }
+  },
+  "plannedDayOfYearNumber": 173,
+  "plannedWeekOfYearNumber": 25,
+  "plannedDayOfMonthNumber": 22,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216849"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1687442400000"
+    }
+  },
+  "plannedDayOfYearNumber": 174,
+  "plannedWeekOfYearNumber": 25,
+  "plannedDayOfMonthNumber": 23,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216849"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1687701600000"
+    }
+  },
+  "plannedDayOfYearNumber": 177,
+  "plannedWeekOfYearNumber": 26,
+  "plannedDayOfMonthNumber": 26,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216849"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1687788000000"
+    }
+  },
+  "plannedDayOfYearNumber": 178,
+  "plannedWeekOfYearNumber": 26,
+  "plannedDayOfMonthNumber": 27,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216849"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1687874400000"
+    }
+  },
+  "plannedDayOfYearNumber": 179,
+  "plannedWeekOfYearNumber": 26,
+  "plannedDayOfMonthNumber": 28,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216849"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1687960800000"
+    }
+  },
+  "plannedDayOfYearNumber": 180,
+  "plannedWeekOfYearNumber": 26,
+  "plannedDayOfMonthNumber": 29,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216849"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1688047200000"
+    }
+  },
+  "plannedDayOfYearNumber": 181,
+  "plannedWeekOfYearNumber": 26,
+  "plannedDayOfMonthNumber": 30,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216849"
+    }
+  }
+},{
+  "month": "July",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1688306400000"
+    }
+  },
+  "plannedDayOfYearNumber": 184,
+  "plannedWeekOfYearNumber": 27,
+  "plannedDayOfMonthNumber": 3,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216849"
+    }
+  }
+},{
+  "month": "July",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1688392800000"
+    }
+  },
+  "plannedDayOfYearNumber": 185,
+  "plannedWeekOfYearNumber": 27,
+  "plannedDayOfMonthNumber": 4,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216849"
+    }
+  }
+},{
+  "month": "July",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1688479200000"
+    }
+  },
+  "plannedDayOfYearNumber": 186,
+  "plannedWeekOfYearNumber": 27,
+  "plannedDayOfMonthNumber": 5,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216849"
+    }
+  }
+},{
+  "month": "July",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1688565600000"
+    }
+  },
+  "plannedDayOfYearNumber": 187,
+  "plannedWeekOfYearNumber": 27,
+  "plannedDayOfMonthNumber": 6,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216850"
+    }
+  }
+},{
+  "month": "July",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1688652000000"
+    }
+  },
+  "plannedDayOfYearNumber": 188,
+  "plannedWeekOfYearNumber": 27,
+  "plannedDayOfMonthNumber": 7,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216850"
+    }
+  }
+},{
+  "month": "July",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1688911200000"
+    }
+  },
+  "plannedDayOfYearNumber": 191,
+  "plannedWeekOfYearNumber": 28,
+  "plannedDayOfMonthNumber": 10,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216850"
+    }
+  }
+},{
+  "month": "July",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1688997600000"
+    }
+  },
+  "plannedDayOfYearNumber": 192,
+  "plannedWeekOfYearNumber": 28,
+  "plannedDayOfMonthNumber": 11,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216850"
+    }
+  }
+},{
+  "month": "July",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1689084000000"
+    }
+  },
+  "plannedDayOfYearNumber": 193,
+  "plannedWeekOfYearNumber": 28,
+  "plannedDayOfMonthNumber": 12,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216850"
+    }
+  }
+},{
+  "month": "July",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1689170400000"
+    }
+  },
+  "plannedDayOfYearNumber": 194,
+  "plannedWeekOfYearNumber": 28,
+  "plannedDayOfMonthNumber": 13,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216850"
+    }
+  }
+},{
+  "month": "July",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1689256800000"
+    }
+  },
+  "plannedDayOfYearNumber": 195,
+  "plannedWeekOfYearNumber": 28,
+  "plannedDayOfMonthNumber": 14,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216850"
+    }
+  }
+},{
+  "month": "July",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1689516000000"
+    }
+  },
+  "plannedDayOfYearNumber": 198,
+  "plannedWeekOfYearNumber": 29,
+  "plannedDayOfMonthNumber": 17,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216850"
+    }
+  }
+},{
+  "month": "July",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1689602400000"
+    }
+  },
+  "plannedDayOfYearNumber": 199,
+  "plannedWeekOfYearNumber": 29,
+  "plannedDayOfMonthNumber": 18,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216850"
+    }
+  }
+},{
+  "month": "July",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1689775200000"
+    }
+  },
+  "plannedDayOfYearNumber": 201,
+  "plannedWeekOfYearNumber": 29,
+  "plannedDayOfMonthNumber": 20,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216850"
+    }
+  }
+},{
+  "month": "July",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1689861600000"
+    }
+  },
+  "plannedDayOfYearNumber": 202,
+  "plannedWeekOfYearNumber": 29,
+  "plannedDayOfMonthNumber": 21,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216851"
+    }
+  }
+},{
+  "month": "July",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1690120800000"
+    }
+  },
+  "plannedDayOfYearNumber": 205,
+  "plannedWeekOfYearNumber": 30,
+  "plannedDayOfMonthNumber": 24,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216851"
+    }
+  }
+},{
+  "month": "July",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1690207200000"
+    }
+  },
+  "plannedDayOfYearNumber": 206,
+  "plannedWeekOfYearNumber": 30,
+  "plannedDayOfMonthNumber": 25,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216851"
+    }
+  }
+},{
+  "month": "July",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1690293600000"
+    }
+  },
+  "plannedDayOfYearNumber": 207,
+  "plannedWeekOfYearNumber": 30,
+  "plannedDayOfMonthNumber": 26,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216851"
+    }
+  }
+},{
+  "month": "July",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1690380000000"
+    }
+  },
+  "plannedDayOfYearNumber": 208,
+  "plannedWeekOfYearNumber": 30,
+  "plannedDayOfMonthNumber": 27,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216851"
+    }
+  }
+},{
+  "month": "July",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1690725600000"
+    }
+  },
+  "plannedDayOfYearNumber": 212,
+  "plannedWeekOfYearNumber": 31,
+  "plannedDayOfMonthNumber": 31,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216851"
+    }
+  }
+},{
+  "month": "July",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1690466400000"
+    }
+  },
+  "plannedDayOfYearNumber": 209,
+  "plannedWeekOfYearNumber": 30,
+  "plannedDayOfMonthNumber": 28,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216851"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1690812000000"
+    }
+  },
+  "plannedDayOfYearNumber": 213,
+  "plannedWeekOfYearNumber": 31,
+  "plannedDayOfMonthNumber": 1,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216851"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1690898400000"
+    }
+  },
+  "plannedDayOfYearNumber": 214,
+  "plannedWeekOfYearNumber": 31,
+  "plannedDayOfMonthNumber": 2,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216851"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1690984800000"
+    }
+  },
+  "plannedDayOfYearNumber": 215,
+  "plannedWeekOfYearNumber": 31,
+  "plannedDayOfMonthNumber": 3,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216851"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1691071200000"
+    }
+  },
+  "plannedDayOfYearNumber": 216,
+  "plannedWeekOfYearNumber": 31,
+  "plannedDayOfMonthNumber": 4,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216851"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1691330400000"
+    }
+  },
+  "plannedDayOfYearNumber": 219,
+  "plannedWeekOfYearNumber": 32,
+  "plannedDayOfMonthNumber": 7,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216851"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1691416800000"
+    }
+  },
+  "plannedDayOfYearNumber": 220,
+  "plannedWeekOfYearNumber": 32,
+  "plannedDayOfMonthNumber": 8,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216852"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1691503200000"
+    }
+  },
+  "plannedDayOfYearNumber": 221,
+  "plannedWeekOfYearNumber": 32,
+  "plannedDayOfMonthNumber": 9,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216852"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1691589600000"
+    }
+  },
+  "plannedDayOfYearNumber": 222,
+  "plannedWeekOfYearNumber": 32,
+  "plannedDayOfMonthNumber": 10,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216852"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1691676000000"
+    }
+  },
+  "plannedDayOfYearNumber": 223,
+  "plannedWeekOfYearNumber": 32,
+  "plannedDayOfMonthNumber": 11,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216852"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1691935200000"
+    }
+  },
+  "plannedDayOfYearNumber": 226,
+  "plannedWeekOfYearNumber": 33,
+  "plannedDayOfMonthNumber": 14,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216852"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1692021600000"
+    }
+  },
+  "plannedDayOfYearNumber": 227,
+  "plannedWeekOfYearNumber": 33,
+  "plannedDayOfMonthNumber": 15,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216852"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1692108000000"
+    }
+  },
+  "plannedDayOfYearNumber": 228,
+  "plannedWeekOfYearNumber": 33,
+  "plannedDayOfMonthNumber": 16,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216852"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1692194400000"
+    }
+  },
+  "plannedDayOfYearNumber": 229,
+  "plannedWeekOfYearNumber": 33,
+  "plannedDayOfMonthNumber": 17,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216852"
+    }
+  }
+},{
+  "month": "July",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1689688800000"
+    }
+  },
+  "plannedDayOfYearNumber": 200,
+  "plannedWeekOfYearNumber": 29,
+  "plannedDayOfMonthNumber": 19,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216850"
+    }
+  }
+},{
+  "month": "May",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1684418400000"
+    }
+  },
+  "plannedDayOfYearNumber": 139,
+  "plannedWeekOfYearNumber": 20,
+  "plannedDayOfMonthNumber": 19,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216845"
+    }
+  }
+},{
+  "month": "June",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1686837600000"
+    }
+  },
+  "plannedDayOfYearNumber": 167,
+  "plannedWeekOfYearNumber": 24,
+  "plannedDayOfMonthNumber": 16,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216848"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1692626400000"
+    }
+  },
+  "plannedDayOfYearNumber": 234,
+  "plannedWeekOfYearNumber": 34,
+  "plannedDayOfMonthNumber": 22,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216852"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1692799200000"
+    }
+  },
+  "plannedDayOfYearNumber": 236,
+  "plannedWeekOfYearNumber": 34,
+  "plannedDayOfMonthNumber": 24,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216853"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1692885600000"
+    }
+  },
+  "plannedDayOfYearNumber": 237,
+  "plannedWeekOfYearNumber": 34,
+  "plannedDayOfMonthNumber": 25,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216853"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1693231200000"
+    }
+  },
+  "plannedDayOfYearNumber": 241,
+  "plannedWeekOfYearNumber": 35,
+  "plannedDayOfMonthNumber": 29,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216853"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1693144800000"
+    }
+  },
+  "plannedDayOfYearNumber": 240,
+  "plannedWeekOfYearNumber": 35,
+  "plannedDayOfMonthNumber": 28,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216853"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1693404000000"
+    }
+  },
+  "plannedDayOfYearNumber": 243,
+  "plannedWeekOfYearNumber": 35,
+  "plannedDayOfMonthNumber": 31,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216854"
+    }
+  }
+},{
+  "month": "September",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1693490400000"
+    }
+  },
+  "plannedDayOfYearNumber": 244,
+  "plannedWeekOfYearNumber": 35,
+  "plannedDayOfMonthNumber": 1,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216854"
+    }
+  }
+},{
+  "month": "September",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1693749600000"
+    }
+  },
+  "plannedDayOfYearNumber": 247,
+  "plannedWeekOfYearNumber": 36,
+  "plannedDayOfMonthNumber": 4,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216854"
+    }
+  }
+},{
+  "month": "September",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1693836000000"
+    }
+  },
+  "plannedDayOfYearNumber": 248,
+  "plannedWeekOfYearNumber": 36,
+  "plannedDayOfMonthNumber": 5,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216854"
+    }
+  }
+},{
+  "month": "September",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1694095200000"
+    }
+  },
+  "plannedDayOfYearNumber": 251,
+  "plannedWeekOfYearNumber": 36,
+  "plannedDayOfMonthNumber": 8,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216855"
+    }
+  }
+},{
+  "month": "September",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1694008800000"
+    }
+  },
+  "plannedDayOfYearNumber": 250,
+  "plannedWeekOfYearNumber": 36,
+  "plannedDayOfMonthNumber": 7,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216855"
+    }
+  }
+},{
+  "month": "September",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1694354400000"
+    }
+  },
+  "plannedDayOfYearNumber": 254,
+  "plannedWeekOfYearNumber": 37,
+  "plannedDayOfMonthNumber": 11,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216855"
+    }
+  }
+},{
+  "month": "September",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1694440800000"
+    }
+  },
+  "plannedDayOfYearNumber": 255,
+  "plannedWeekOfYearNumber": 37,
+  "plannedDayOfMonthNumber": 12,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216855"
+    }
+  }
+},{
+  "month": "September",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1694613600000"
+    }
+  },
+  "plannedDayOfYearNumber": 257,
+  "plannedWeekOfYearNumber": 37,
+  "plannedDayOfMonthNumber": 14,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216855"
+    }
+  }
+},{
+  "month": "September",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1694959200000"
+    }
+  },
+  "plannedDayOfYearNumber": 261,
+  "plannedWeekOfYearNumber": 38,
+  "plannedDayOfMonthNumber": 18,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216855"
+    }
+  }
+},{
+  "month": "September",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1694700000000"
+    }
+  },
+  "plannedDayOfYearNumber": 258,
+  "plannedWeekOfYearNumber": 37,
+  "plannedDayOfMonthNumber": 15,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216855"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1692712800000"
+    }
+  },
+  "plannedDayOfYearNumber": 235,
+  "plannedWeekOfYearNumber": 34,
+  "plannedDayOfMonthNumber": 23,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216853"
+    }
+  }
+},{
+  "month": "September",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1695132000000"
+    }
+  },
+  "plannedDayOfYearNumber": 263,
+  "plannedWeekOfYearNumber": 38,
+  "plannedDayOfMonthNumber": 20,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216855"
+    }
+  }
+},{
+  "month": "September",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1695045600000"
+    }
+  },
+  "plannedDayOfYearNumber": 262,
+  "plannedWeekOfYearNumber": 38,
+  "plannedDayOfMonthNumber": 19,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216855"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1693317600000"
+    }
+  },
+  "plannedDayOfYearNumber": 242,
+  "plannedWeekOfYearNumber": 35,
+  "plannedDayOfMonthNumber": 30,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216853"
+    }
+  }
+},{
+  "month": "September",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1693922400000"
+    }
+  },
+  "plannedDayOfYearNumber": 249,
+  "plannedWeekOfYearNumber": 36,
+  "plannedDayOfMonthNumber": 6,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216854"
+    }
+  }
+},{
+  "month": "September",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1694527200000"
+    }
+  },
+  "plannedDayOfYearNumber": 256,
+  "plannedWeekOfYearNumber": 37,
+  "plannedDayOfMonthNumber": 13,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216855"
+    }
+  }
+},{
+  "month": "September",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1695218400000"
+    }
+  },
+  "plannedDayOfYearNumber": 264,
+  "plannedWeekOfYearNumber": 38,
+  "plannedDayOfMonthNumber": 21,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216855"
+    }
+  }
+},{
+  "month": "September",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1695304800000"
+    }
+  },
+  "plannedDayOfYearNumber": 265,
+  "plannedWeekOfYearNumber": 38,
+  "plannedDayOfMonthNumber": 22,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216855"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1692280800000"
+    }
+  },
+  "plannedDayOfYearNumber": 230,
+  "plannedWeekOfYearNumber": 33,
+  "plannedDayOfMonthNumber": 18,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216852"
+    }
+  }
+},{
+  "month": "September",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1695736800000"
+    }
+  },
+  "plannedDayOfYearNumber": 270,
+  "plannedWeekOfYearNumber": 39,
+  "plannedDayOfMonthNumber": 27,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216856"
+    }
+  }
+},{
+  "month": "September",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1695650400000"
+    }
+  },
+  "plannedDayOfYearNumber": 269,
+  "plannedWeekOfYearNumber": 39,
+  "plannedDayOfMonthNumber": 26,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216856"
+    }
+  }
+},{
+  "month": "September",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1695823200000"
+    }
+  },
+  "plannedDayOfYearNumber": 271,
+  "plannedWeekOfYearNumber": 39,
+  "plannedDayOfMonthNumber": 28,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216856"
+    }
+  }
+},{
+  "month": "September",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1695909600000"
+    }
+  },
+  "plannedDayOfYearNumber": 272,
+  "plannedWeekOfYearNumber": 39,
+  "plannedDayOfMonthNumber": 29,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216856"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1696165200000"
+    }
+  },
+  "plannedDayOfYearNumber": 275,
+  "plannedWeekOfYearNumber": 40,
+  "plannedDayOfMonthNumber": 2,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216856"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1696338000000"
+    }
+  },
+  "plannedDayOfYearNumber": 277,
+  "plannedWeekOfYearNumber": 40,
+  "plannedDayOfMonthNumber": 4,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216856"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1696251600000"
+    }
+  },
+  "plannedDayOfYearNumber": 276,
+  "plannedWeekOfYearNumber": 40,
+  "plannedDayOfMonthNumber": 3,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216856"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1696424400000"
+    }
+  },
+  "plannedDayOfYearNumber": 278,
+  "plannedWeekOfYearNumber": 40,
+  "plannedDayOfMonthNumber": 5,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216856"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1696510800000"
+    }
+  },
+  "plannedDayOfYearNumber": 279,
+  "plannedWeekOfYearNumber": 40,
+  "plannedDayOfMonthNumber": 6,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216856"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1696770000000"
+    }
+  },
+  "plannedDayOfYearNumber": 282,
+  "plannedWeekOfYearNumber": 41,
+  "plannedDayOfMonthNumber": 9,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216856"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1696942800000"
+    }
+  },
+  "plannedDayOfYearNumber": 284,
+  "plannedWeekOfYearNumber": 41,
+  "plannedDayOfMonthNumber": 11,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216857"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1696856400000"
+    }
+  },
+  "plannedDayOfYearNumber": 283,
+  "plannedWeekOfYearNumber": 41,
+  "plannedDayOfMonthNumber": 10,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216856"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1697029200000"
+    }
+  },
+  "plannedDayOfYearNumber": 285,
+  "plannedWeekOfYearNumber": 41,
+  "plannedDayOfMonthNumber": 12,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216857"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1697115600000"
+    }
+  },
+  "plannedDayOfYearNumber": 286,
+  "plannedWeekOfYearNumber": 41,
+  "plannedDayOfMonthNumber": 13,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216857"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1697374800000"
+    }
+  },
+  "plannedDayOfYearNumber": 289,
+  "plannedWeekOfYearNumber": 42,
+  "plannedDayOfMonthNumber": 16,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216857"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1697547600000"
+    }
+  },
+  "plannedDayOfYearNumber": 291,
+  "plannedWeekOfYearNumber": 42,
+  "plannedDayOfMonthNumber": 18,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216857"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1697634000000"
+    }
+  },
+  "plannedDayOfYearNumber": 292,
+  "plannedWeekOfYearNumber": 42,
+  "plannedDayOfMonthNumber": 19,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216857"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1697461200000"
+    }
+  },
+  "plannedDayOfYearNumber": 290,
+  "plannedWeekOfYearNumber": 42,
+  "plannedDayOfMonthNumber": 17,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216857"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1697720400000"
+    }
+  },
+  "plannedDayOfYearNumber": 293,
+  "plannedWeekOfYearNumber": 42,
+  "plannedDayOfMonthNumber": 20,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216857"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1697979600000"
+    }
+  },
+  "plannedDayOfYearNumber": 296,
+  "plannedWeekOfYearNumber": 43,
+  "plannedDayOfMonthNumber": 23,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216857"
+    }
+  }
+},{
+  "month": "August",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1692540000000"
+    }
+  },
+  "plannedDayOfYearNumber": 233,
+  "plannedWeekOfYearNumber": 34,
+  "plannedDayOfMonthNumber": 21,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216852"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1698152400000"
+    }
+  },
+  "plannedDayOfYearNumber": 298,
+  "plannedWeekOfYearNumber": 43,
+  "plannedDayOfMonthNumber": 25,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216857"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1698238800000"
+    }
+  },
+  "plannedDayOfYearNumber": 299,
+  "plannedWeekOfYearNumber": 43,
+  "plannedDayOfMonthNumber": 26,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216857"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1698325200000"
+    }
+  },
+  "plannedDayOfYearNumber": 300,
+  "plannedWeekOfYearNumber": 43,
+  "plannedDayOfMonthNumber": 27,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216858"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1698584400000"
+    }
+  },
+  "plannedDayOfYearNumber": 303,
+  "plannedWeekOfYearNumber": 44,
+  "plannedDayOfMonthNumber": 30,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216858"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1698757200000"
+    }
+  },
+  "plannedDayOfYearNumber": 305,
+  "plannedWeekOfYearNumber": 44,
+  "plannedDayOfMonthNumber": 1,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216858"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1698670800000"
+    }
+  },
+  "plannedDayOfYearNumber": 304,
+  "plannedWeekOfYearNumber": 44,
+  "plannedDayOfMonthNumber": 31,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216858"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1698843600000"
+    }
+  },
+  "plannedDayOfYearNumber": 306,
+  "plannedWeekOfYearNumber": 44,
+  "plannedDayOfMonthNumber": 2,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216858"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1698930000000"
+    }
+  },
+  "plannedDayOfYearNumber": 307,
+  "plannedWeekOfYearNumber": 44,
+  "plannedDayOfMonthNumber": 3,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216858"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1699189200000"
+    }
+  },
+  "plannedDayOfYearNumber": 310,
+  "plannedWeekOfYearNumber": 45,
+  "plannedDayOfMonthNumber": 6,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216858"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1699275600000"
+    }
+  },
+  "plannedDayOfYearNumber": 311,
+  "plannedWeekOfYearNumber": 45,
+  "plannedDayOfMonthNumber": 7,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216858"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1699362000000"
+    }
+  },
+  "plannedDayOfYearNumber": 312,
+  "plannedWeekOfYearNumber": 45,
+  "plannedDayOfMonthNumber": 8,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216858"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1699448400000"
+    }
+  },
+  "plannedDayOfYearNumber": 313,
+  "plannedWeekOfYearNumber": 45,
+  "plannedDayOfMonthNumber": 9,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216858"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1699534800000"
+    }
+  },
+  "plannedDayOfYearNumber": 314,
+  "plannedWeekOfYearNumber": 45,
+  "plannedDayOfMonthNumber": 10,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216858"
+    }
+  }
+},{
+  "month": "September",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1695564000000"
+    }
+  },
+  "plannedDayOfYearNumber": 268,
+  "plannedWeekOfYearNumber": 39,
+  "plannedDayOfMonthNumber": 25,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216856"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1699880400000"
+    }
+  },
+  "plannedDayOfYearNumber": 318,
+  "plannedWeekOfYearNumber": 46,
+  "plannedDayOfMonthNumber": 14,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216859"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1699966800000"
+    }
+  },
+  "plannedDayOfYearNumber": 319,
+  "plannedWeekOfYearNumber": 46,
+  "plannedDayOfMonthNumber": 15,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216859"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1700053200000"
+    }
+  },
+  "plannedDayOfYearNumber": 320,
+  "plannedWeekOfYearNumber": 46,
+  "plannedDayOfMonthNumber": 16,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216859"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1700139600000"
+    }
+  },
+  "plannedDayOfYearNumber": 321,
+  "plannedWeekOfYearNumber": 46,
+  "plannedDayOfMonthNumber": 17,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216859"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1700398800000"
+    }
+  },
+  "plannedDayOfYearNumber": 324,
+  "plannedWeekOfYearNumber": 47,
+  "plannedDayOfMonthNumber": 20,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216859"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1700485200000"
+    }
+  },
+  "plannedDayOfYearNumber": 325,
+  "plannedWeekOfYearNumber": 47,
+  "plannedDayOfMonthNumber": 21,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216859"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1700571600000"
+    }
+  },
+  "plannedDayOfYearNumber": 326,
+  "plannedWeekOfYearNumber": 47,
+  "plannedDayOfMonthNumber": 22,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216859"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1700658000000"
+    }
+  },
+  "plannedDayOfYearNumber": 327,
+  "plannedWeekOfYearNumber": 47,
+  "plannedDayOfMonthNumber": 23,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216859"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1700744400000"
+    }
+  },
+  "plannedDayOfYearNumber": 328,
+  "plannedWeekOfYearNumber": 47,
+  "plannedDayOfMonthNumber": 24,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216859"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1701003600000"
+    }
+  },
+  "plannedDayOfYearNumber": 331,
+  "plannedWeekOfYearNumber": 48,
+  "plannedDayOfMonthNumber": 27,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216859"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1701090000000"
+    }
+  },
+  "plannedDayOfYearNumber": 332,
+  "plannedWeekOfYearNumber": 48,
+  "plannedDayOfMonthNumber": 28,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216859"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1701176400000"
+    }
+  },
+  "plannedDayOfYearNumber": 333,
+  "plannedWeekOfYearNumber": 48,
+  "plannedDayOfMonthNumber": 29,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216859"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1701262800000"
+    }
+  },
+  "plannedDayOfYearNumber": 334,
+  "plannedWeekOfYearNumber": 48,
+  "plannedDayOfMonthNumber": 30,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216859"
+    }
+  }
+},{
+  "month": "December",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1701349200000"
+    }
+  },
+  "plannedDayOfYearNumber": 335,
+  "plannedWeekOfYearNumber": 48,
+  "plannedDayOfMonthNumber": 1,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216860"
+    }
+  }
+},{
+  "month": "December",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1701694800000"
+    }
+  },
+  "plannedDayOfYearNumber": 339,
+  "plannedWeekOfYearNumber": 49,
+  "plannedDayOfMonthNumber": 5,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216860"
+    }
+  }
+},{
+  "month": "December",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1701608400000"
+    }
+  },
+  "plannedDayOfYearNumber": 338,
+  "plannedWeekOfYearNumber": 49,
+  "plannedDayOfMonthNumber": 4,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216860"
+    }
+  }
+},{
+  "month": "December",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1701781200000"
+    }
+  },
+  "plannedDayOfYearNumber": 340,
+  "plannedWeekOfYearNumber": 49,
+  "plannedDayOfMonthNumber": 6,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216860"
+    }
+  }
+},{
+  "month": "December",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1701867600000"
+    }
+  },
+  "plannedDayOfYearNumber": 341,
+  "plannedWeekOfYearNumber": 49,
+  "plannedDayOfMonthNumber": 7,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216860"
+    }
+  }
+},{
+  "month": "December",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1701954000000"
+    }
+  },
+  "plannedDayOfYearNumber": 342,
+  "plannedWeekOfYearNumber": 49,
+  "plannedDayOfMonthNumber": 8,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216860"
+    }
+  }
+},{
+  "month": "December",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1702213200000"
+    }
+  },
+  "plannedDayOfYearNumber": 345,
+  "plannedWeekOfYearNumber": 50,
+  "plannedDayOfMonthNumber": 11,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216860"
+    }
+  }
+},{
+  "month": "December",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1702299600000"
+    }
+  },
+  "plannedDayOfYearNumber": 346,
+  "plannedWeekOfYearNumber": 50,
+  "plannedDayOfMonthNumber": 12,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216860"
+    }
+  }
+},{
+  "month": "December",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1702386000000"
+    }
+  },
+  "plannedDayOfYearNumber": 347,
+  "plannedWeekOfYearNumber": 50,
+  "plannedDayOfMonthNumber": 13,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216860"
+    }
+  }
+},{
+  "month": "December",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1702472400000"
+    }
+  },
+  "plannedDayOfYearNumber": 348,
+  "plannedWeekOfYearNumber": 50,
+  "plannedDayOfMonthNumber": 14,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216860"
+    }
+  }
+},{
+  "month": "December",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1702558800000"
+    }
+  },
+  "plannedDayOfYearNumber": 349,
+  "plannedWeekOfYearNumber": 50,
+  "plannedDayOfMonthNumber": 15,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216860"
+    }
+  }
+},{
+  "month": "December",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1702818000000"
+    }
+  },
+  "plannedDayOfYearNumber": 352,
+  "plannedWeekOfYearNumber": 51,
+  "plannedDayOfMonthNumber": 18,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216860"
+    }
+  }
+},{
+  "month": "December",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1702904400000"
+    }
+  },
+  "plannedDayOfYearNumber": 353,
+  "plannedWeekOfYearNumber": 51,
+  "plannedDayOfMonthNumber": 19,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216860"
+    }
+  }
+},{
+  "month": "December",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1702990800000"
+    }
+  },
+  "plannedDayOfYearNumber": 354,
+  "plannedWeekOfYearNumber": 51,
+  "plannedDayOfMonthNumber": 20,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216860"
+    }
+  }
+},{
+  "month": "December",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1703077200000"
+    }
+  },
+  "plannedDayOfYearNumber": 355,
+  "plannedWeekOfYearNumber": 51,
+  "plannedDayOfMonthNumber": 21,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216860"
+    }
+  }
+},{
+  "month": "December",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1703163600000"
+    }
+  },
+  "plannedDayOfYearNumber": 356,
+  "plannedWeekOfYearNumber": 51,
+  "plannedDayOfMonthNumber": 22,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216860"
+    }
+  }
+},{
+  "month": "December",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1703422800000"
+    }
+  },
+  "plannedDayOfYearNumber": 359,
+  "plannedWeekOfYearNumber": 52,
+  "plannedDayOfMonthNumber": 25,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216860"
+    }
+  }
+},{
+  "month": "December",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1703509200000"
+    }
+  },
+  "plannedDayOfYearNumber": 360,
+  "plannedWeekOfYearNumber": 52,
+  "plannedDayOfMonthNumber": 26,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216861"
+    }
+  }
+},{
+  "month": "December",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1703595600000"
+    }
+  },
+  "plannedDayOfYearNumber": 361,
+  "plannedWeekOfYearNumber": 52,
+  "plannedDayOfMonthNumber": 27,
+  "plannedDayOfWeekNumber": 3,
+  "plannedDayOfWeek": "Wednesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216861"
+    }
+  }
+},{
+  "month": "December",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1703682000000"
+    }
+  },
+  "plannedDayOfYearNumber": 362,
+  "plannedWeekOfYearNumber": 52,
+  "plannedDayOfMonthNumber": 28,
+  "plannedDayOfWeekNumber": 4,
+  "plannedDayOfWeek": "Thursday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216861"
+    }
+  }
+},{
+  "month": "December",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1703768400000"
+    }
+  },
+  "plannedDayOfYearNumber": 363,
+  "plannedWeekOfYearNumber": 52,
+  "plannedDayOfMonthNumber": 29,
+  "plannedDayOfWeekNumber": 5,
+  "plannedDayOfWeek": "Friday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216861"
+    }
+  }
+},{
+  "month": "October",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1698066000000"
+    }
+  },
+  "plannedDayOfYearNumber": 297,
+  "plannedWeekOfYearNumber": 43,
+  "plannedDayOfMonthNumber": 24,
+  "plannedDayOfWeekNumber": 2,
+  "plannedDayOfWeek": "Tuesday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216857"
+    }
+  }
+},{
+  "month": "November",
+  "plannedDate": {
+    "$date": {
+      "$numberLong": "1699794000000"
+    }
+  },
+  "plannedDayOfYearNumber": 317,
+  "plannedWeekOfYearNumber": 46,
+  "plannedDayOfMonthNumber": 13,
+  "plannedDayOfWeekNumber": 1,
+  "plannedDayOfWeek": "Monday",
+  "quantity": 1,
+  "orderText": "",
+  "meals": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1674109216858"
+    }
+  }
+}]

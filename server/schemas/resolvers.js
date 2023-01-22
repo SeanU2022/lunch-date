@@ -1,5 +1,6 @@
 const { AuthenticationError } = require('apollo-server-express');
 const { User, Client, Meal, Thought } = require('../models');
+const { Order } = require('../models');
 const { signToken } = require('../utils/auth');
 
 const resolvers = {
@@ -17,13 +18,20 @@ const resolvers = {
       throw new AuthenticationError('You need to be logged in!');
     },
 
+    orders: async () => {
+      return Order.find().sort({ plannedDayOfYearNumber: 1 });
+    },
+    order: async (parent, { orderId }) => {
+      return Order.findOne({ _id: orderId });
+    },
+
+
     clients: async () => {
       return Client.find().sort({ createdAt: -1 });
     },
     client: async (parent, { clientId }) => {
       return Client.findOne({ _id: clientId });
     },
-
 
     meals: async () => {
       return Meal.find().sort({ createdAt: -1 });

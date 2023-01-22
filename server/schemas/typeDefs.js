@@ -40,7 +40,7 @@ const typeDefs = gql`
     quantity: Int
     orderText: String
     createdAt: String
-    meals: [Meal]!
+    todaysMeal: String
   }
 
   type Meal {

@@ -65,7 +65,23 @@ export const QUERY_CLIENTS = gql`
   }
 `;
 
-
+export const QUERY_ORDERS = gql`
+  query Orders {
+    orders {
+      _id
+      month
+      plannedDate
+      plannedDayOfYearNumber
+      plannedWeekOfYearNumber
+      plannedDayOfMonthNumber
+      plannedDayOfWeekNumber
+      plannedDayOfWeek
+      quantity
+      orderText
+      todaysMeal
+    }
+  }
+`;
 
 export const QUERY_THOUGHTS = gql`
   query getThoughts {

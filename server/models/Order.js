@@ -32,25 +32,29 @@ const orderSchema = new Schema({
     maxlength: 40,
     trim: true,
   },
+  todaysMeal: {
+    type: String,
+  },
   createdAt: {
     type: Date,
     default: Date.now,
     get: (timestamp) => dateFormat(timestamp),
   },
-  meals: [
-    {
-      mealText: {
-        type: String,
-        minlength: 0,
-        maxlength: 60,
-      },
-      createdAt: {
-        type: Date,
-        default: Date.now,
-        get: (timestamp) => dateFormat(timestamp),
-      },
-    },
-  ],
+  
+  // meals: [
+  //   {
+  //     mealText: {
+  //       type: String,
+  //       minlength: 0,
+  //       maxlength: 60,
+  //     },
+  //     createdAt: {
+  //       type: Date,
+  //       default: Date.now,
+  //       get: (timestamp) => dateFormat(timestamp),
+  //     },
+  //   },
+  // ],
 });
 
 const Order = model('Order', orderSchema);
